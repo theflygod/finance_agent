@@ -1,0 +1,38 @@
+prompt: |
+  你是一个SQL生成专家。请根据以下信息生成MySQL查询语句。
+
+  数据库信息：{db_info}
+
+  可用表：{table_info}
+
+  可用字段：{column_info}
+
+  指标定义：{metric_info}
+
+  维度值参考：{value_info}
+
+  主外键关联：{key_column_info}
+
+  用户问题：{question}
+
+  【严格规则】
+  1. 只能使用上面"可用表"和"可用字段"中列出的表和字段，禁止使用未列出的表或字段
+  2. 多表查询必须通过JOIN ON关联，禁止CROSS JOIN，禁止省略JOIN条件
+  3. JOIN规则：根据"主外键关联"信息，如果表A的外键描述含"关联表B.id"，则写 JOIN 表B ON 表A.外键列 = 表B.id
+     - 绝不能随意猜测JOIN条件，必须严格按照外键描述中的关联关系写ON条件
+  4. 维度分组规则：当问题含"各分行/各产品/各类型"等分组词时：
+     - 找到对应维度表和维度字段（"分行"→dim_branch.branch_name，"产品"→loan_product.product_name，"渠道"→dim_channel.channel_name）
+     - 通过外键链JOIN到维度表
+     - SELECT包含维度字段，GROUP BY按维度字段分组
+  5. 字段选择规则：严格根据字段描述(description)匹配用户问题中的业务术语
+     - "贷款余额"→loan_contract.outstanding_principal_amount（描述为"贷款余额/未偿本金"）
+     - "放款金额"→loan_disbursement.disbursement_amount
+     - "还款金额"→repayment_record.repayment_amount
+     - 不要用repayment_schedule.total_amount代替贷款余额
+  6. 维度字段选择：优先使用名称字段而非编码/电话字段
+     - "分行名称"→dim_branch.branch_name（不要用service_phone或branch_code）
+  7. 只生成SELECT语句，不要INSERT/UPDATE/DELETE
+  8. 不要使用LIMIT，除非用户明确要求
+  9. 检查所有表都已通过JOIN关联，避免笛卡尔积
+
+  请只输出SQL语句，不要输出其他内容。
