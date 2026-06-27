@@ -1,0 +1,1190 @@
+2026-06-26 09:02:39 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 09:02:39 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 09:03:15 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 09:03:15 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 09:03:21 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 09:05:09 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 09:05:09 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 09:36:31 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 09:36:31 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 09:36:32 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 09:38:04 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 09:38:04 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 09:38:21 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 09:38:21 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 09:38:22 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 09:39:30 | WARNING  | app.agent.nodes.execute_sql:execute_sql:20 - SQL execution failed: (asyncmy.errors.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '无法修正，因可用表信息和字段信息均为空（[]），无合法表' at line 1")
+[SQL: 无法修正，因可用表信息和字段信息均为空（[]），无合法表名与字段名可供使用。]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-06-26 09:40:03 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 09:40:03 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 09:40:16 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 09:40:16 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 09:40:17 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 09:41:40 | WARNING  | app.agent.nodes.execute_sql:execute_sql:20 - SQL execution failed: (asyncmy.errors.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '无法修正，因可用表信息和字段信息为空，无合法表名与字æ®' at line 1")
+[SQL: 无法修正，因可用表信息和字段信息为空，无合法表名与字段名可供使用。]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-06-26 09:43:08 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 09:43:08 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 09:43:33 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 09:43:33 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 09:43:34 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 09:46:18 | WARNING  | app.agent.nodes.execute_sql:execute_sql:20 - SQL execution failed: (asyncmy.errors.OperationalError) (1054, "Unknown column 'lc.contract_amount' in 'field list'")
+[SQL: SELECT 
+    '未知分行' AS 分行名称,
+    SUM(lc.contract_amount) AS 贷款余额
+FROM loan_contract lc
+WHERE lc.contract_status = 'active';]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-26 10:06:46 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 10:06:46 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 10:08:39 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 10:08:39 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 10:08:40 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 10:31:52 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 10:31:52 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 10:32:09 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 10:32:09 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 10:32:10 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 11:13:40 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 11:13:40 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 11:13:55 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 11:13:55 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 11:13:55 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 11:21:59 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 11:21:59 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 11:22:13 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 11:22:13 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 11:22:14 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 11:25:18 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 11:25:18 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 11:25:37 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 11:25:37 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 11:25:38 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 11:25:56 | INFO     | app.agent.nodes.get_table_info:get_table_info:30 - get_table_info: tables=['loan_product', 'loan_disbursement', 'business_stat_daily', 'repayment_record', 'loan_contract', 'repayment_schedule', 'loan_application', 'bank_card', 'credit_limit', 'dim_product_category', 'customer', 'collection_case', 'repayment_promise', 'dim_channel', 'credit_application']
+2026-06-26 11:28:16 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 11:28:16 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 11:28:37 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 11:28:37 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 11:28:38 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 11:29:00 | INFO     | app.agent.nodes.get_table_info:get_table_info:30 - get_table_info: tables=['loan_product', 'loan_disbursement', 'business_stat_daily', 'repayment_record', 'loan_contract', 'repayment_schedule', 'loan_application', 'bank_card', 'credit_limit', 'dim_product_category', 'customer', 'dim_branch', 'dim_risk_level', 'dim_channel', 'collection_case', 'repayment_promise', 'credit_application']
+2026-06-26 11:31:13 | WARNING  | app.agent.nodes.execute_sql:execute_sql:20 - SQL execution failed: (asyncmy.errors.OperationalError) (1054, "Unknown column 'la.branch_id' in 'on clause'")
+[SQL: SELECT 
+    b.address AS 分行名称,
+    SUM(lc.outstanding_principal_amount) AS 贷款余额
+FROM loan_contract lc
+JOIN loan_application la ON lc.application_id = la.id
+JOIN dim_branch b ON la.branch_id = b.id
+WHERE lc.outstanding_principal_amount > 0
+GROUP BY b.address;]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-26 11:31:46 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 11:31:46 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 11:32:00 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 11:32:00 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 11:32:01 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 11:32:18 | INFO     | app.agent.nodes.get_table_info:get_table_info:30 - get_table_info: tables=['loan_product', 'loan_disbursement', 'business_stat_daily', 'repayment_record', 'loan_contract', 'repayment_schedule', 'loan_application', 'bank_card', 'credit_limit', 'credit_application', 'customer', 'dim_branch', 'dim_channel', 'dim_risk_level', 'collection_case', 'repayment_promise', 'dim_product_category']
+2026-06-26 11:41:06 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 11:41:06 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 11:41:07 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 11:41:23 | INFO     | app.agent.nodes.get_table_info:get_table_info:25 - get_table_info: vector search found tables=['loan_product', 'business_stat_daily', 'loan_disbursement', 'repayment_record', 'repayment_schedule', 'loan_application', 'credit_limit', 'dim_branch', 'credit_approval_record', 'loan_contract']
+2026-06-26 11:41:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:73 -   iteration 1: found related table credit_application via credit_limit.credit_application_id
+2026-06-26 11:41:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:73 -   iteration 1: found related table customer via loan_application.customer_id
+2026-06-26 11:41:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:73 -   iteration 1: found related table dim_channel via loan_application.channel_id
+2026-06-26 11:41:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:73 -   iteration 1: found related table collection_case via repayment_record.collection_case_id
+2026-06-26 11:41:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:73 -   iteration 1: found related table repayment_promise via repayment_record.repayment_promise_id
+2026-06-26 11:41:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:73 -   iteration 1: found related table dim_product_category via loan_product.category_id
+2026-06-26 11:41:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:93 -   iteration 1: reverse-found table credit_limit_change_log (has FK referencing credit_application)
+2026-06-26 11:41:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:93 -   iteration 1: reverse-found table aml_case (has FK referencing customer)
+2026-06-26 11:41:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:93 -   iteration 1: reverse-found table wealth_order (has FK referencing dim_channel)
+2026-06-26 11:41:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:93 -   iteration 1: reverse-found table risk_event (has FK referencing customer)
+2026-06-26 11:41:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:93 -   iteration 1: reverse-found table bank_account (has FK referencing dim_branch)
+2026-06-26 11:41:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:93 -   iteration 1: reverse-found table overdue_record (has FK referencing loan_contract)
+2026-06-26 11:41:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:93 -   iteration 1: reverse-found table aml_case_transaction (has FK referencing aml_case)
+2026-06-26 11:41:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:93 -   iteration 1: reverse-found table suspicious_transaction_report (has FK referencing aml_case)
+2026-06-26 11:41:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:93 -   iteration 1: reverse-found table manual_review_task (has FK referencing risk_event)
+2026-06-26 11:41:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:93 -   iteration 1: reverse-found table channel_transaction (has FK referencing dim_channel)
+2026-06-26 11:41:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:93 -   iteration 1: reverse-found table wealth_position (has FK referencing customer)
+2026-06-26 11:41:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:93 -   iteration 1: reverse-found table dim_employee (has FK referencing dim_branch)
+2026-06-26 11:41:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:93 -   iteration 1: reverse-found table aml_review_result (has FK referencing aml_case)
+2026-06-26 11:41:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:93 -   iteration 1: reverse-found table guarantee_record (has FK referencing customer)
+2026-06-26 11:41:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:93 -   iteration 1: reverse-found table credit_assessment (has FK referencing credit_application)
+2026-06-26 11:41:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:93 -   iteration 1: reverse-found table account_transaction (has FK referencing dim_channel)
+2026-06-26 11:41:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:93 -   iteration 1: reverse-found table customer_identity (has FK referencing customer)
+2026-06-26 11:41:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:93 -   iteration 1: reverse-found table wealth_product (has FK referencing dim_product_category)
+2026-06-26 11:41:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:93 -   iteration 1: reverse-found table customer_kyc (has FK referencing customer)
+2026-06-26 11:41:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:93 -   iteration 1: reverse-found table credit_application_material (has FK referencing credit_application)
+2026-06-26 11:41:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:93 -   iteration 1: reverse-found table customer_risk_assessment (has FK referencing customer)
+2026-06-26 11:41:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:73 -   iteration 2: found related table account_product via bank_account.account_product_id
+2026-06-26 11:41:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:73 -   iteration 2: found related table dim_risk_level via wealth_product.risk_level_id
+2026-06-26 11:41:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:93 -   iteration 2: reverse-found table reconciliation_result (has FK referencing channel_transaction)
+2026-06-26 11:41:23 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:95 - _find_related_tables: found 30 related tables: ['credit_application', 'customer', 'dim_channel', 'collection_case', 'repayment_promise', 'dim_product_category', 'credit_limit_change_log', 'aml_case', 'wealth_order', 'risk_event', 'bank_account', 'overdue_record', 'aml_case_transaction', 'suspicious_transaction_report', 'manual_review_task', 'channel_transaction', 'wealth_position', 'dim_employee', 'aml_review_result', 'guarantee_record', 'credit_assessment', 'account_transaction', 'customer_identity', 'wealth_product', 'customer_kyc', 'credit_application_material', 'customer_risk_assessment', 'account_product', 'dim_risk_level', 'reconciliation_result']
+2026-06-26 11:41:23 | INFO     | app.agent.nodes.get_table_info:get_table_info:33 - get_table_info: final tables=['loan_product', 'business_stat_daily', 'loan_disbursement', 'repayment_record', 'repayment_schedule', 'loan_application', 'credit_limit', 'dim_branch', 'credit_approval_record', 'loan_contract', 'credit_application', 'customer', 'dim_channel', 'collection_case', 'repayment_promise', 'dim_product_category', 'credit_limit_change_log', 'aml_case', 'wealth_order', 'risk_event', 'bank_account', 'overdue_record', 'aml_case_transaction', 'suspicious_transaction_report', 'manual_review_task', 'channel_transaction', 'wealth_position', 'dim_employee', 'aml_review_result', 'guarantee_record', 'credit_assessment', 'account_transaction', 'customer_identity', 'wealth_product', 'customer_kyc', 'credit_application_material', 'customer_risk_assessment', 'account_product', 'dim_risk_level', 'reconciliation_result']
+2026-06-26 11:41:24 | INFO     | app.agent.nodes.get_column_info:get_column_info:47 - get_column_info: supplemented 29 tables from MySQL ([{'name': 'credit_application', 'id': '6735da52ea0372d0'}, {'name': 'customer', 'id': '91ec1f9324753048'}, {'name': 'dim_channel', 'id': '0c0a30db03e0926f'}, {'name': 'collection_case', 'id': '2df8d5e0884a5266'}, {'name': 'repayment_promise', 'id': '3fa526b7dda4c906'}, {'name': 'dim_product_category', 'id': 'b479e89d6647d365'}, {'name': 'credit_limit_change_log', 'id': 'ab5b4fa0563f4b09'}, {'name': 'aml_case', 'id': '148ede735c602c01'}, {'name': 'wealth_order', 'id': '077a31d63e3c5a56'}, {'name': 'risk_event', 'id': '620c4bf0ed3f2995'}, {'name': 'bank_account', 'id': 'bc4558986d78f84a'}, {'name': 'overdue_record', 'id': 'c332aa6a9f3d148f'}, {'name': 'aml_case_transaction', 'id': '7eed28ea90398ab7'}, {'name': 'suspicious_transaction_report', 'id': '6d08eb1dea30c0d0'}, {'name': 'manual_review_task', 'id': '2adbb14b439055ed'}, {'name': 'channel_transaction', 'id': '2ab3fb6a63ef80f5'}, {'name': 'wealth_position', 'id': '2043303e0a4d6aba'}, {'name': 'dim_employee', 'id': 'fcbbb3506ed31b70'}, {'name': 'aml_review_result', 'id': '96dfda133493acc1'}, {'name': 'guarantee_record', 'id': '12524a53b8d0a61a'}, {'name': 'account_transaction', 'id': 'dabe550af63942d1'}, {'name': 'customer_identity', 'id': '95a349ab1b62fedb'}, {'name': 'wealth_product', 'id': 'a173d9a04b2fb5bd'}, {'name': 'customer_kyc', 'id': 'a13f2cb8c8ffdfa0'}, {'name': 'credit_application_material', 'id': 'e0d5e4093e7f052c'}, {'name': 'customer_risk_assessment', 'id': 'ebef547fa4fabc4f'}, {'name': 'account_product', 'id': 'd9b85306df0aff46'}, {'name': 'dim_risk_level', 'id': 'd26087f6d8cceb5f'}, {'name': 'reconciliation_result', 'id': 'd51c92ecde32ae1a'}])
+2026-06-26 11:45:02 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 11:45:02 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 11:45:16 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 11:45:16 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 11:45:16 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 13:56:57 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 13:56:57 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 13:56:58 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 13:57:34 | INFO     | app.agent.nodes.get_table_info:get_table_info:25 - get_table_info: vector search found tables=['loan_product', 'loan_disbursement', 'business_stat_daily', 'repayment_record', 'loan_contract', 'repayment_schedule', 'loan_application', 'bank_card', 'credit_limit']
+2026-06-26 13:57:34 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:69 -   hop 1: found credit_application via credit_limit.credit_application_id
+2026-06-26 13:57:34 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:69 -   hop 1: found customer via loan_application.customer_id
+2026-06-26 13:57:34 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:69 -   hop 1: found dim_channel via loan_application.channel_id
+2026-06-26 13:57:34 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:69 -   hop 1: found collection_case via repayment_record.collection_case_id
+2026-06-26 13:57:34 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:69 -   hop 1: found repayment_promise via repayment_record.repayment_promise_id
+2026-06-26 13:57:34 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:69 -   hop 1: found dim_product_category via loan_product.category_id
+2026-06-26 13:57:34 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:73 -   hop 1: found 6 new tables: ['credit_application', 'customer', 'dim_channel', 'collection_case', 'repayment_promise', 'dim_product_category']
+2026-06-26 13:57:34 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:69 -   hop 2: found dim_branch via customer.branch_id
+2026-06-26 13:57:34 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:69 -   hop 2: found dim_risk_level via customer.risk_level_id
+2026-06-26 13:57:34 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:73 -   hop 2: found 2 new tables: ['dim_branch', 'dim_risk_level']
+2026-06-26 13:57:34 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:75 - _find_related_tables: found 8 related tables: ['credit_application', 'customer', 'dim_channel', 'collection_case', 'repayment_promise', 'dim_product_category', 'dim_branch', 'dim_risk_level']
+2026-06-26 13:57:34 | INFO     | app.agent.nodes.get_table_info:get_table_info:33 - get_table_info: final tables=['loan_product', 'loan_disbursement', 'business_stat_daily', 'repayment_record', 'loan_contract', 'repayment_schedule', 'loan_application', 'bank_card', 'credit_limit', 'credit_application', 'customer', 'dim_channel', 'collection_case', 'repayment_promise', 'dim_product_category', 'dim_branch', 'dim_risk_level']
+2026-06-26 13:57:35 | INFO     | app.agent.nodes.get_column_info:get_column_info:48 - get_column_info: supplemented key/dim columns for 7 tables from MySQL
+2026-06-26 14:01:07 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 14:01:07 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 14:02:52 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 14:02:52 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 14:02:53 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 14:03:11 | INFO     | app.agent.nodes.get_table_info:get_table_info:31 - get_table_info: vector search found tables=['loan_product', 'business_stat_daily', 'loan_disbursement', 'repayment_record', 'repayment_schedule', 'loan_application', 'credit_limit']
+2026-06-26 14:03:11 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:80 -   hop 1: found loan_contract via loan_disbursement.contract_id
+2026-06-26 14:03:11 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:80 -   hop 1: found credit_application via credit_limit.credit_application_id
+2026-06-26 14:03:11 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:80 -   hop 1: found customer via loan_application.customer_id
+2026-06-26 14:03:11 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:80 -   hop 1: found dim_channel via loan_application.channel_id
+2026-06-26 14:03:11 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:80 -   hop 1: found collection_case via repayment_record.collection_case_id
+2026-06-26 14:03:11 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:80 -   hop 1: found repayment_promise via repayment_record.repayment_promise_id
+2026-06-26 14:03:11 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:80 -   hop 1: found dim_product_category via loan_product.category_id
+2026-06-26 14:03:11 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:84 -   hop 1: found 7 new tables: ['loan_contract', 'credit_application', 'customer', 'dim_channel', 'collection_case', 'repayment_promise', 'dim_product_category']
+2026-06-26 14:03:11 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:80 -   hop 2: found dim_branch via customer.branch_id
+2026-06-26 14:03:11 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:80 -   hop 2: found dim_risk_level via customer.risk_level_id
+2026-06-26 14:03:11 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:84 -   hop 2: found 2 new tables: ['dim_branch', 'dim_risk_level']
+2026-06-26 14:03:11 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:86 - _find_related_tables: found 9 related tables: ['loan_contract', 'credit_application', 'customer', 'dim_channel', 'collection_case', 'repayment_promise', 'dim_product_category', 'dim_branch', 'dim_risk_level']
+2026-06-26 14:03:11 | INFO     | app.agent.nodes.get_table_info:get_table_info:44 - get_table_info: final tables=['loan_product', 'business_stat_daily', 'loan_disbursement', 'repayment_record', 'repayment_schedule', 'loan_application', 'credit_limit', 'customer', 'dim_channel', 'dim_product_category']
+2026-06-26 14:03:12 | INFO     | app.agent.nodes.get_column_info:get_column_info:48 - get_column_info: supplemented key/dim columns for 3 tables from MySQL
+2026-06-26 14:06:23 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 14:06:23 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 14:06:51 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 14:06:51 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 14:06:52 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 14:07:12 | INFO     | app.agent.nodes.get_table_info:get_table_info:33 - get_table_info: vector search found 10 tables=['loan_product', 'business_stat_daily', 'loan_disbursement', 'repayment_record', 'repayment_schedule', 'loan_application', 'credit_limit', 'dim_branch', 'credit_approval_record', 'loan_contract']
+2026-06-26 14:07:13 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:90 -   hop 1: found loan_contract via loan_disbursement.contract_id
+2026-06-26 14:07:13 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:90 -   hop 1: found customer via loan_disbursement.customer_id
+2026-06-26 14:07:13 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:90 -   hop 1: found collection_case via repayment_record.collection_case_id
+2026-06-26 14:07:13 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:90 -   hop 1: found repayment_promise via repayment_record.repayment_promise_id
+2026-06-26 14:07:13 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:90 -   hop 1: found dim_product_category via loan_product.category_id
+2026-06-26 14:07:13 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:94 -   hop 1: found 5 new tables: ['loan_contract', 'customer', 'collection_case', 'repayment_promise', 'dim_product_category']
+2026-06-26 14:07:13 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:90 -   hop 2: found dim_branch via customer.branch_id
+2026-06-26 14:07:13 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:90 -   hop 2: found loan_application via loan_contract.application_id
+2026-06-26 14:07:13 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:90 -   hop 2: found dim_risk_level via customer.risk_level_id
+2026-06-26 14:07:13 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:90 -   hop 2: found dim_channel via customer.register_channel_id
+2026-06-26 14:07:13 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:94 -   hop 2: found 4 new tables: ['dim_branch', 'loan_application', 'dim_risk_level', 'dim_channel']
+2026-06-26 14:07:13 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:90 -   hop 3: found credit_limit via loan_application.credit_limit_id
+2026-06-26 14:07:13 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:94 -   hop 3: found 1 new tables: ['credit_limit']
+2026-06-26 14:07:13 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:96 - _find_related_tables: found 10 related tables: ['loan_contract', 'customer', 'collection_case', 'repayment_promise', 'dim_product_category', 'dim_branch', 'loan_application', 'dim_risk_level', 'dim_channel', 'credit_limit']
+2026-06-26 14:07:13 | INFO     | app.agent.nodes.get_table_info:get_table_info:54 - get_table_info: final tables=['loan_product', 'business_stat_daily', 'loan_disbursement', 'repayment_record', 'repayment_schedule', 'customer', 'dim_product_category', 'dim_branch', 'dim_risk_level', 'dim_channel']
+2026-06-26 14:07:13 | INFO     | app.agent.nodes.get_column_info:get_column_info:48 - get_column_info: supplemented key/dim columns for 4 tables from MySQL
+2026-06-26 14:10:44 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 14:10:44 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 14:12:38 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 14:12:38 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 14:12:39 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 14:12:59 | INFO     | app.agent.nodes.get_table_info:get_table_info:32 - get_table_info: vector search found 9 tables=['loan_product', 'loan_disbursement', 'business_stat_daily', 'repayment_record', 'loan_contract', 'repayment_schedule', 'loan_application', 'bank_card', 'credit_limit']
+2026-06-26 14:12:59 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:82 -   hop 1: found credit_application via credit_limit.credit_application_id
+2026-06-26 14:12:59 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:82 -   hop 1: found customer via loan_application.customer_id
+2026-06-26 14:12:59 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:82 -   hop 1: found dim_channel via loan_application.channel_id
+2026-06-26 14:12:59 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:82 -   hop 1: found collection_case via repayment_record.collection_case_id
+2026-06-26 14:12:59 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:82 -   hop 1: found repayment_promise via repayment_record.repayment_promise_id
+2026-06-26 14:12:59 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:82 -   hop 1: found dim_product_category via loan_product.category_id
+2026-06-26 14:12:59 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:86 -   hop 1: found 6 new tables: ['credit_application', 'customer', 'dim_channel', 'collection_case', 'repayment_promise', 'dim_product_category']
+2026-06-26 14:12:59 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:82 -   hop 2: found dim_branch via customer.branch_id
+2026-06-26 14:12:59 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:82 -   hop 2: found dim_risk_level via customer.risk_level_id
+2026-06-26 14:12:59 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:86 -   hop 2: found 2 new tables: ['dim_branch', 'dim_risk_level']
+2026-06-26 14:12:59 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:88 - _find_related_tables: found 8 related tables: ['credit_application', 'customer', 'dim_channel', 'collection_case', 'repayment_promise', 'dim_product_category', 'dim_branch', 'dim_risk_level']
+2026-06-26 14:12:59 | INFO     | app.agent.nodes.get_table_info:get_table_info:46 - get_table_info: final tables=['loan_product', 'loan_disbursement', 'business_stat_daily', 'repayment_record', 'loan_contract', 'repayment_schedule', 'loan_application', 'bank_card', 'credit_limit', 'customer']
+2026-06-26 14:13:00 | INFO     | app.agent.nodes.get_column_info:get_column_info:48 - get_column_info: supplemented key/dim columns for 1 tables from MySQL
+2026-06-26 14:23:23 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 14:23:23 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 14:23:35 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 14:23:35 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 14:23:36 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 14:23:55 | INFO     | app.agent.nodes.get_table_info:get_table_info:34 - get_table_info: vector search found 10 tables=['loan_product', 'business_stat_daily', 'loan_disbursement', 'repayment_record', 'repayment_schedule', 'loan_application', 'credit_limit', 'dim_branch', 'credit_approval_record', 'loan_contract']
+2026-06-26 14:23:56 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:92 -   hop 1: found credit_application via credit_limit.credit_application_id
+2026-06-26 14:23:56 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:92 -   hop 1: found customer via loan_application.customer_id
+2026-06-26 14:23:56 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:92 -   hop 1: found dim_channel via loan_application.channel_id
+2026-06-26 14:23:56 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:92 -   hop 1: found collection_case via repayment_record.collection_case_id
+2026-06-26 14:23:56 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:92 -   hop 1: found repayment_promise via repayment_record.repayment_promise_id
+2026-06-26 14:23:56 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:92 -   hop 1: found dim_product_category via loan_product.category_id
+2026-06-26 14:23:56 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:96 -   hop 1: found 6 new tables: ['credit_application', 'customer', 'dim_channel', 'collection_case', 'repayment_promise', 'dim_product_category']
+2026-06-26 14:23:56 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:92 -   hop 2: found dim_risk_level via customer.risk_level_id
+2026-06-26 14:23:56 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:96 -   hop 2: found 1 new tables: ['dim_risk_level']
+2026-06-26 14:23:56 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:98 - _find_related_tables: found 7 related tables: ['credit_application', 'customer', 'dim_channel', 'collection_case', 'repayment_promise', 'dim_product_category', 'dim_risk_level']
+2026-06-26 14:23:56 | INFO     | app.agent.nodes.get_table_info:get_table_info:44 - get_table_info: trimmed 4 least-relevant vector tables to make room for join tables
+2026-06-26 14:23:56 | INFO     | app.agent.nodes.get_table_info:get_table_info:56 - get_table_info: final tables=['loan_product', 'business_stat_daily', 'loan_disbursement', 'repayment_record', 'repayment_schedule', 'loan_application', 'customer', 'dim_channel', 'dim_product_category', 'dim_risk_level']
+2026-06-26 14:23:56 | INFO     | app.agent.nodes.get_column_info:get_column_info:48 - get_column_info: supplemented key/dim columns for 4 tables from MySQL
+2026-06-26 14:25:49 | WARNING  | app.agent.nodes.execute_sql:execute_sql:20 - SQL execution failed: (asyncmy.errors.OperationalError) (1054, "Unknown column 'bs.value' in 'field list'")
+[SQL: SELECT 
+    SUM(bs.value) AS loan_balance
+FROM 
+    business_stat_daily bs
+WHERE 
+    bs.metric_name = '贷款余额';]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-26 14:29:35 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 14:29:35 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 14:29:51 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 14:29:51 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 14:29:52 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 14:30:10 | INFO     | app.agent.nodes.get_table_info:get_table_info:34 - get_table_info: vector search found 10 tables=['loan_product', 'business_stat_daily', 'loan_disbursement', 'repayment_record', 'repayment_schedule', 'loan_application', 'credit_limit', 'dim_branch', 'credit_approval_record', 'loan_contract']
+2026-06-26 14:30:10 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:93 -   hop 1: found credit_application via credit_limit.credit_application_id
+2026-06-26 14:30:10 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:93 -   hop 1: found customer via loan_application.customer_id
+2026-06-26 14:30:10 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:93 -   hop 1: found dim_channel via loan_application.channel_id
+2026-06-26 14:30:10 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:93 -   hop 1: found collection_case via repayment_record.collection_case_id
+2026-06-26 14:30:10 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:93 -   hop 1: found repayment_promise via repayment_record.repayment_promise_id
+2026-06-26 14:30:10 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:93 -   hop 1: found dim_product_category via loan_product.category_id
+2026-06-26 14:30:10 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:97 -   hop 1: found 6 new tables: ['credit_application', 'customer', 'dim_channel', 'collection_case', 'repayment_promise', 'dim_product_category']
+2026-06-26 14:30:10 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:93 -   hop 2: found dim_risk_level via customer.risk_level_id
+2026-06-26 14:30:10 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:97 -   hop 2: found 1 new tables: ['dim_risk_level']
+2026-06-26 14:30:10 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:99 - _find_related_tables: found 7 related tables: ['credit_application', 'customer', 'dim_channel', 'collection_case', 'repayment_promise', 'dim_product_category', 'dim_risk_level']
+2026-06-26 14:30:10 | INFO     | app.agent.nodes.get_table_info:get_table_info:44 - get_table_info: trimmed 4 least-relevant vector tables to make room for join tables
+2026-06-26 14:30:10 | INFO     | app.agent.nodes.get_table_info:get_table_info:56 - get_table_info: final tables=['loan_product', 'business_stat_daily', 'loan_disbursement', 'repayment_record', 'repayment_schedule', 'loan_application', 'customer', 'dim_channel', 'dim_product_category', 'dim_risk_level']
+2026-06-26 14:30:11 | INFO     | app.agent.nodes.get_column_info:get_column_info:48 - get_column_info: supplemented key/dim columns for 4 tables from MySQL
+2026-06-26 14:30:15 | WARNING  | app.agent.nodes.review_sql:review_sql:57 - review_sql: programmatic check failed: ["SQL使用了未提供的表: {'dim_branch', 'loan_contract'}"]
+2026-06-26 14:30:18 | WARNING  | app.agent.nodes.review_sql:review_sql:57 - review_sql: programmatic check failed: ["SQL使用了未提供的表: {'dim_branch'}"]
+2026-06-26 14:30:52 | WARNING  | app.agent.nodes.review_sql:review_sql:57 - review_sql: programmatic check failed: ["SQL使用了未提供的表: {'dim_branch'}"]
+2026-06-26 14:31:59 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 14:31:59 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 14:32:12 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 14:32:12 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 14:32:13 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 14:32:35 | INFO     | app.agent.nodes.get_table_info:get_table_info:34 - get_table_info: vector search found 10 tables=['loan_product', 'business_stat_daily', 'loan_disbursement', 'repayment_record', 'repayment_schedule', 'loan_application', 'credit_limit', 'dim_branch', 'credit_approval_record', 'loan_contract']
+2026-06-26 14:32:35 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:87 -   hop 1: found credit_application via credit_limit.credit_application_id
+2026-06-26 14:32:35 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:87 -   hop 1: found customer via loan_application.customer_id
+2026-06-26 14:32:35 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:87 -   hop 1: found dim_channel via loan_application.channel_id
+2026-06-26 14:32:35 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:87 -   hop 1: found collection_case via repayment_record.collection_case_id
+2026-06-26 14:32:35 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:87 -   hop 1: found repayment_promise via repayment_record.repayment_promise_id
+2026-06-26 14:32:35 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:87 -   hop 1: found dim_product_category via loan_product.category_id
+2026-06-26 14:32:35 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:91 -   hop 1: found 6 new tables: ['credit_application', 'customer', 'dim_channel', 'collection_case', 'repayment_promise', 'dim_product_category']
+2026-06-26 14:32:35 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:87 -   hop 2: found dim_risk_level via customer.risk_level_id
+2026-06-26 14:32:35 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:91 -   hop 2: found 1 new tables: ['dim_risk_level']
+2026-06-26 14:32:35 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:93 - _find_related_tables: found 7 related tables: ['credit_application', 'customer', 'dim_channel', 'collection_case', 'repayment_promise', 'dim_product_category', 'dim_risk_level']
+2026-06-26 14:32:35 | INFO     | app.agent.nodes.get_table_info:get_table_info:50 - get_table_info: final tables=['loan_product', 'business_stat_daily', 'loan_disbursement', 'repayment_record', 'repayment_schedule', 'loan_application', 'credit_limit', 'dim_branch', 'credit_approval_record', 'loan_contract', 'customer', 'dim_channel']
+2026-06-26 14:32:36 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 2 tables from MySQL
+2026-06-26 14:32:36 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 40 columns for 12 tables
+2026-06-26 14:36:04 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 14:36:04 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 14:36:17 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 14:36:17 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 14:36:17 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 14:36:37 | INFO     | app.agent.nodes.get_table_info:get_table_info:34 - get_table_info: vector search found 10 tables=['loan_product', 'business_stat_daily', 'loan_disbursement', 'repayment_record', 'repayment_schedule', 'loan_application', 'credit_limit', 'dim_branch', 'credit_approval_record', 'loan_contract']
+2026-06-26 14:36:38 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:87 -   hop 1: found credit_application via credit_limit.credit_application_id
+2026-06-26 14:36:38 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:87 -   hop 1: found customer via loan_application.customer_id
+2026-06-26 14:36:38 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:87 -   hop 1: found dim_channel via loan_application.channel_id
+2026-06-26 14:36:38 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:87 -   hop 1: found collection_case via repayment_record.collection_case_id
+2026-06-26 14:36:38 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:87 -   hop 1: found repayment_promise via repayment_record.repayment_promise_id
+2026-06-26 14:36:38 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:87 -   hop 1: found dim_product_category via loan_product.category_id
+2026-06-26 14:36:38 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:91 -   hop 1: found 6 new tables: ['credit_application', 'customer', 'dim_channel', 'collection_case', 'repayment_promise', 'dim_product_category']
+2026-06-26 14:36:38 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:87 -   hop 2: found dim_risk_level via customer.risk_level_id
+2026-06-26 14:36:38 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:91 -   hop 2: found 1 new tables: ['dim_risk_level']
+2026-06-26 14:36:38 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:93 - _find_related_tables: found 7 related tables: ['credit_application', 'customer', 'dim_channel', 'collection_case', 'repayment_promise', 'dim_product_category', 'dim_risk_level']
+2026-06-26 14:36:38 | INFO     | app.agent.nodes.get_table_info:get_table_info:50 - get_table_info: final tables=['loan_product', 'business_stat_daily', 'loan_disbursement', 'repayment_record', 'repayment_schedule', 'loan_application', 'credit_limit', 'dim_branch', 'credit_approval_record', 'loan_contract', 'customer', 'dim_channel']
+2026-06-26 14:36:38 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 2 tables from MySQL
+2026-06-26 14:36:38 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 40 columns for 12 tables
+2026-06-26 14:39:56 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 14:39:56 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 14:40:17 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 14:40:17 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 14:40:18 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 14:40:45 | INFO     | app.agent.nodes.get_table_info:get_table_info:34 - get_table_info: vector search found 10 tables=['loan_product', 'business_stat_daily', 'loan_disbursement', 'repayment_record', 'repayment_schedule', 'loan_application', 'credit_limit', 'dim_branch', 'credit_approval_record', 'loan_contract']
+2026-06-26 14:40:45 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:87 -   hop 1: found credit_application via credit_limit.credit_application_id
+2026-06-26 14:40:45 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:87 -   hop 1: found customer via loan_application.customer_id
+2026-06-26 14:40:45 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:87 -   hop 1: found dim_channel via loan_application.channel_id
+2026-06-26 14:40:45 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:87 -   hop 1: found collection_case via repayment_record.collection_case_id
+2026-06-26 14:40:45 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:87 -   hop 1: found repayment_promise via repayment_record.repayment_promise_id
+2026-06-26 14:40:45 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:87 -   hop 1: found dim_product_category via loan_product.category_id
+2026-06-26 14:40:45 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:91 -   hop 1: found 6 new tables: ['credit_application', 'customer', 'dim_channel', 'collection_case', 'repayment_promise', 'dim_product_category']
+2026-06-26 14:40:45 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:87 -   hop 2: found dim_risk_level via customer.risk_level_id
+2026-06-26 14:40:45 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:91 -   hop 2: found 1 new tables: ['dim_risk_level']
+2026-06-26 14:40:45 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:93 - _find_related_tables: found 7 related tables: ['credit_application', 'customer', 'dim_channel', 'collection_case', 'repayment_promise', 'dim_product_category', 'dim_risk_level']
+2026-06-26 14:40:45 | INFO     | app.agent.nodes.get_table_info:get_table_info:50 - get_table_info: final tables=['loan_product', 'business_stat_daily', 'loan_disbursement', 'repayment_record', 'repayment_schedule', 'loan_application', 'credit_limit', 'dim_branch', 'credit_approval_record', 'loan_contract', 'customer', 'dim_channel']
+2026-06-26 14:40:46 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 2 tables from MySQL
+2026-06-26 14:40:46 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 40 columns for 12 tables
+2026-06-26 14:42:44 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 14:42:44 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 14:42:56 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 14:42:56 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 14:42:57 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 14:43:15 | INFO     | app.agent.nodes.get_table_info:get_table_info:35 - get_table_info: vector search found 9 tables=['loan_product', 'loan_disbursement', 'business_stat_daily', 'repayment_record', 'loan_contract', 'repayment_schedule', 'loan_application', 'bank_card', 'credit_limit']
+2026-06-26 14:43:15 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:90 -   hop 1: found customer via loan_disbursement.customer_id
+2026-06-26 14:43:15 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:90 -   hop 1: found loan_application via loan_contract.application_id
+2026-06-26 14:43:15 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:90 -   hop 1: found collection_case via repayment_record.collection_case_id
+2026-06-26 14:43:15 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:90 -   hop 1: found repayment_promise via repayment_record.repayment_promise_id
+2026-06-26 14:43:15 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:90 -   hop 1: found dim_product_category via loan_product.category_id
+2026-06-26 14:43:15 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:94 -   hop 1: found 5 new tables: ['customer', 'loan_application', 'collection_case', 'repayment_promise', 'dim_product_category']
+2026-06-26 14:43:15 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:90 -   hop 2: found credit_limit via loan_application.credit_limit_id
+2026-06-26 14:43:15 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:90 -   hop 2: found dim_branch via customer.branch_id
+2026-06-26 14:43:15 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:90 -   hop 2: found dim_channel via loan_application.channel_id
+2026-06-26 14:43:15 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:90 -   hop 2: found dim_risk_level via customer.risk_level_id
+2026-06-26 14:43:15 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:94 -   hop 2: found 4 new tables: ['credit_limit', 'dim_branch', 'dim_channel', 'dim_risk_level']
+2026-06-26 14:43:15 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:90 -   hop 3: found credit_application via credit_limit.credit_application_id
+2026-06-26 14:43:15 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:94 -   hop 3: found 1 new tables: ['credit_application']
+2026-06-26 14:43:15 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:96 - _find_related_tables: found 10 related tables: ['customer', 'loan_application', 'collection_case', 'repayment_promise', 'dim_product_category', 'credit_limit', 'dim_branch', 'dim_channel', 'dim_risk_level', 'credit_application']
+2026-06-26 14:43:15 | INFO     | app.agent.nodes.get_table_info:get_table_info:53 - get_table_info: final tables=['loan_product', 'loan_disbursement', 'business_stat_daily', 'repayment_record', 'loan_contract', 'customer', 'dim_product_category', 'dim_branch', 'dim_channel', 'dim_risk_level']
+2026-06-26 14:43:16 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 5 tables from MySQL
+2026-06-26 14:43:16 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 50 columns for 10 tables
+2026-06-26 14:45:43 | INFO     | app.agent.nodes.get_table_info:get_table_info:35 - get_table_info: vector search found 2 tables=['loan_product', 'wealth_product']
+2026-06-26 14:45:43 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:90 -   hop 1: found dim_risk_level via wealth_product.risk_level_id
+2026-06-26 14:45:43 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:90 -   hop 1: found dim_product_category via wealth_product.category_id
+2026-06-26 14:45:43 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:94 -   hop 1: found 2 new tables: ['dim_risk_level', 'dim_product_category']
+2026-06-26 14:45:43 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:96 - _find_related_tables: found 2 related tables: ['dim_risk_level', 'dim_product_category']
+2026-06-26 14:45:43 | INFO     | app.agent.nodes.get_table_info:get_table_info:53 - get_table_info: final tables=['loan_product', 'wealth_product', 'dim_risk_level', 'dim_product_category']
+2026-06-26 14:45:44 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 2 tables from MySQL
+2026-06-26 14:45:44 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 40 columns for 4 tables
+2026-06-26 14:45:46 | WARNING  | app.agent.nodes.review_sql:review_sql:57 - review_sql: programmatic check failed: ["SQL使用了未提供的表: {'loan_contract'}"]
+2026-06-26 14:47:00 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 14:47:00 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 14:47:38 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 14:47:38 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 14:47:39 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 14:48:00 | INFO     | app.agent.nodes.get_table_info:get_table_info:35 - get_table_info: vector search found 2 tables=['loan_product', 'wealth_product']
+2026-06-26 14:48:00 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:85 -   hop 1: found loan_contract (has FK product_id referencing loan_product)
+2026-06-26 14:48:00 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:85 -   hop 1: found loan_application (has FK product_id referencing loan_product)
+2026-06-26 14:48:00 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:85 -   hop 1: found wealth_order (has FK product_id referencing wealth_product)
+2026-06-26 14:48:00 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:85 -   hop 1: found wealth_position (has FK product_id referencing wealth_product)
+2026-06-26 14:48:00 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:98 -   hop 1: found 4 new tables: ['loan_contract', 'loan_application', 'wealth_order', 'wealth_position']
+2026-06-26 14:48:00 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:85 -   hop 2: found loan_disbursement (has FK contract_id referencing loan_contract)
+2026-06-26 14:48:00 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:85 -   hop 2: found overdue_record (has FK contract_id referencing loan_contract)
+2026-06-26 14:48:00 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:85 -   hop 2: found repayment_record (has FK contract_id referencing loan_contract)
+2026-06-26 14:48:00 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:85 -   hop 2: found collection_case (has FK contract_id referencing loan_contract)
+2026-06-26 14:48:00 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:85 -   hop 2: found credit_limit_change_log (has FK loan_application_id referencing loan_application)
+2026-06-26 14:48:00 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:85 -   hop 2: found repayment_schedule (has FK contract_id referencing loan_contract)
+2026-06-26 14:48:00 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:98 -   hop 2: found 6 new tables: ['loan_disbursement', 'overdue_record', 'repayment_record', 'collection_case', 'credit_limit_change_log', 'repayment_schedule']
+2026-06-26 14:48:00 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:100 - _find_related_tables: found 10 related tables: ['loan_contract', 'loan_application', 'wealth_order', 'wealth_position', 'loan_disbursement', 'overdue_record', 'repayment_record', 'collection_case', 'credit_limit_change_log', 'repayment_schedule']
+2026-06-26 14:48:00 | INFO     | app.agent.nodes.get_table_info:get_table_info:53 - get_table_info: final tables=['loan_product', 'wealth_product']
+2026-06-26 14:48:01 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 20 columns for 2 tables
+2026-06-26 14:48:04 | WARNING  | app.agent.nodes.review_sql:review_sql:57 - review_sql: programmatic check failed: ["SQL使用了未提供的表: {'loan_contract'}"]
+2026-06-26 14:48:55 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 14:48:55 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 14:49:52 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 14:49:52 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 14:49:52 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 14:50:50 | INFO     | app.agent.nodes.get_table_info:get_table_info:44 - get_table_info: vector search found 2 tables=['loan_product', 'wealth_product']
+2026-06-26 14:50:50 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:96 -   hop 1: found loan_contract (has FK product_id referencing loan_product)
+2026-06-26 14:50:50 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:96 -   hop 1: found loan_application (has FK product_id referencing loan_product)
+2026-06-26 14:50:50 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:96 -   hop 1: found wealth_order (has FK product_id referencing wealth_product)
+2026-06-26 14:50:50 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:96 -   hop 1: found wealth_position (has FK product_id referencing wealth_product)
+2026-06-26 14:50:50 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:109 -   hop 1: found 4 new tables: ['loan_contract', 'loan_application', 'wealth_order', 'wealth_position']
+2026-06-26 14:50:50 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:96 -   hop 2: found loan_disbursement (has FK contract_id referencing loan_contract)
+2026-06-26 14:50:50 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:96 -   hop 2: found overdue_record (has FK contract_id referencing loan_contract)
+2026-06-26 14:50:50 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:96 -   hop 2: found repayment_record (has FK contract_id referencing loan_contract)
+2026-06-26 14:50:50 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:96 -   hop 2: found collection_case (has FK contract_id referencing loan_contract)
+2026-06-26 14:50:50 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:96 -   hop 2: found credit_limit_change_log (has FK loan_application_id referencing loan_application)
+2026-06-26 14:50:50 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:96 -   hop 2: found repayment_schedule (has FK contract_id referencing loan_contract)
+2026-06-26 14:50:50 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:109 -   hop 2: found 6 new tables: ['loan_disbursement', 'overdue_record', 'repayment_record', 'collection_case', 'credit_limit_change_log', 'repayment_schedule']
+2026-06-26 14:50:50 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:111 - _find_related_tables: found 10 related tables: ['loan_contract', 'loan_application', 'wealth_order', 'wealth_position', 'loan_disbursement', 'overdue_record', 'repayment_record', 'collection_case', 'credit_limit_change_log', 'repayment_schedule']
+2026-06-26 14:50:50 | INFO     | app.agent.nodes.get_table_info:get_table_info:64 - get_table_info: final tables=['loan_product', 'wealth_product', 'loan_contract', 'loan_application', 'loan_disbursement', 'overdue_record', 'repayment_record', 'collection_case', 'repayment_schedule', 'wealth_order']
+2026-06-26 14:50:51 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 8 tables from MySQL
+2026-06-26 14:50:51 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 130 columns for 10 tables
+2026-06-26 14:52:36 | INFO     | app.agent.nodes.get_table_info:get_table_info:44 - get_table_info: vector search found 6 tables=['repayment_schedule', 'wealth_income', 'loan_disbursement', 'overdue_record', 'loan_contract', 'repayment_record']
+2026-06-26 14:52:36 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:96 -   hop 1: found repayment_record (has FK contract_id referencing loan_contract)
+2026-06-26 14:52:36 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:96 -   hop 1: found collection_case (has FK contract_id referencing loan_contract)
+2026-06-26 14:52:36 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:109 -   hop 1: found 2 new tables: ['repayment_record', 'collection_case']
+2026-06-26 14:52:37 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:111 - _find_related_tables: found 2 related tables: ['repayment_record', 'collection_case']
+2026-06-26 14:52:37 | INFO     | app.agent.nodes.get_table_info:get_table_info:64 - get_table_info: final tables=['repayment_schedule', 'wealth_income', 'loan_disbursement', 'overdue_record', 'loan_contract', 'repayment_record', 'collection_case']
+2026-06-26 14:52:37 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 1 tables from MySQL
+2026-06-26 14:52:37 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 33 columns for 7 tables
+2026-06-26 14:52:57 | INFO     | app.agent.nodes.get_table_info:get_table_info:44 - get_table_info: vector search found 4 tables=['loan_contract', 'repayment_schedule', 'loan_disbursement', 'repayment_record']
+2026-06-26 14:52:57 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:96 -   hop 1: found overdue_record (has FK contract_id referencing loan_contract)
+2026-06-26 14:52:57 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:96 -   hop 1: found collection_case (has FK contract_id referencing loan_contract)
+2026-06-26 14:52:57 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:109 -   hop 1: found 2 new tables: ['overdue_record', 'collection_case']
+2026-06-26 14:52:57 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:111 - _find_related_tables: found 2 related tables: ['overdue_record', 'collection_case']
+2026-06-26 14:52:57 | INFO     | app.agent.nodes.get_table_info:get_table_info:64 - get_table_info: final tables=['loan_contract', 'repayment_schedule', 'loan_disbursement', 'repayment_record', 'overdue_record', 'collection_case']
+2026-06-26 14:52:58 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 2 tables from MySQL
+2026-06-26 14:52:58 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 50 columns for 6 tables
+2026-06-26 14:53:16 | INFO     | app.agent.nodes.get_table_info:get_table_info:44 - get_table_info: vector search found 6 tables=['loan_product', 'loan_application', 'channel_transaction', 'credit_application', 'business_stat_daily', 'dim_channel']
+2026-06-26 14:53:16 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:96 -   hop 1: found credit_limit_change_log (has FK credit_application_id referencing credit_application)
+2026-06-26 14:53:16 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:96 -   hop 1: found loan_contract (has FK product_id referencing loan_product)
+2026-06-26 14:53:16 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:96 -   hop 1: found credit_limit (has FK credit_application_id referencing credit_application)
+2026-06-26 14:53:16 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:96 -   hop 1: found reconciliation_result (has FK channel_transaction_id referencing channel_transaction)
+2026-06-26 14:53:16 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:96 -   hop 1: found credit_assessment (has FK credit_application_id referencing credit_application)
+2026-06-26 14:53:16 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:96 -   hop 1: found credit_approval_record (has FK credit_application_id referencing credit_application)
+2026-06-26 14:53:16 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:96 -   hop 1: found credit_application_material (has FK credit_application_id referencing credit_application)
+2026-06-26 14:53:16 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:109 -   hop 1: found 7 new tables: ['credit_limit_change_log', 'loan_contract', 'credit_limit', 'reconciliation_result', 'credit_assessment', 'credit_approval_record', 'credit_application_material']
+2026-06-26 14:53:16 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:96 -   hop 2: found loan_disbursement (has FK contract_id referencing loan_contract)
+2026-06-26 14:53:16 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:96 -   hop 2: found overdue_record (has FK contract_id referencing loan_contract)
+2026-06-26 14:53:16 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:96 -   hop 2: found repayment_record (has FK contract_id referencing loan_contract)
+2026-06-26 14:53:16 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:96 -   hop 2: found collection_case (has FK contract_id referencing loan_contract)
+2026-06-26 14:53:16 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:96 -   hop 2: found repayment_schedule (has FK contract_id referencing loan_contract)
+2026-06-26 14:53:16 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:109 -   hop 2: found 5 new tables: ['loan_disbursement', 'overdue_record', 'repayment_record', 'collection_case', 'repayment_schedule']
+2026-06-26 14:53:16 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:111 - _find_related_tables: found 12 related tables: ['credit_limit_change_log', 'loan_contract', 'credit_limit', 'reconciliation_result', 'credit_assessment', 'credit_approval_record', 'credit_application_material', 'loan_disbursement', 'overdue_record', 'repayment_record', 'collection_case', 'repayment_schedule']
+2026-06-26 14:53:16 | INFO     | app.agent.nodes.get_table_info:get_table_info:64 - get_table_info: final tables=['loan_product', 'loan_application', 'channel_transaction', 'credit_application', 'business_stat_daily', 'loan_contract', 'credit_limit', 'loan_disbursement', 'overdue_record', 'repayment_record']
+2026-06-26 14:53:16 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 5 tables from MySQL
+2026-06-26 14:53:16 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 100 columns for 10 tables
+2026-06-26 14:53:19 | WARNING  | app.agent.nodes.review_sql:review_sql:57 - review_sql: programmatic check failed: ["SQL使用了未提供的表: {'dim_channel'}"]
+2026-06-26 14:54:57 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 14:54:57 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 14:55:19 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 14:55:19 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 14:55:20 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 14:55:43 | INFO     | app.agent.nodes.get_table_info:get_table_info:69 - get_table_info: vector search found 6 tables=['loan_product', 'loan_application', 'channel_transaction', 'credit_application', 'business_stat_daily', 'dim_channel']
+2026-06-26 14:55:44 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found credit_limit_change_log (has FK credit_application_id referencing credit_application)
+2026-06-26 14:55:44 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found loan_contract (has FK product_id referencing loan_product)
+2026-06-26 14:55:44 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found credit_limit (has FK credit_application_id referencing credit_application)
+2026-06-26 14:55:44 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found reconciliation_result (has FK channel_transaction_id referencing channel_transaction)
+2026-06-26 14:55:44 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found credit_assessment (has FK credit_application_id referencing credit_application)
+2026-06-26 14:55:44 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found credit_approval_record (has FK credit_application_id referencing credit_application)
+2026-06-26 14:55:44 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found credit_application_material (has FK credit_application_id referencing credit_application)
+2026-06-26 14:55:44 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:145 -   hop 1: found 7 new tables: ['credit_limit_change_log', 'loan_contract', 'credit_limit', 'reconciliation_result', 'credit_assessment', 'credit_approval_record', 'credit_application_material']
+2026-06-26 14:55:44 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found loan_disbursement (has FK contract_id referencing loan_contract)
+2026-06-26 14:55:44 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found overdue_record (has FK contract_id referencing loan_contract)
+2026-06-26 14:55:44 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found repayment_record (has FK contract_id referencing loan_contract)
+2026-06-26 14:55:44 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found collection_case (has FK contract_id referencing loan_contract)
+2026-06-26 14:55:44 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found repayment_schedule (has FK contract_id referencing loan_contract)
+2026-06-26 14:55:44 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:145 -   hop 2: found 5 new tables: ['loan_disbursement', 'overdue_record', 'repayment_record', 'collection_case', 'repayment_schedule']
+2026-06-26 14:55:44 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:147 - _find_related_tables: found 12 related tables: ['credit_limit_change_log', 'loan_contract', 'credit_limit', 'reconciliation_result', 'credit_assessment', 'credit_approval_record', 'credit_application_material', 'loan_disbursement', 'overdue_record', 'repayment_record', 'collection_case', 'repayment_schedule']
+2026-06-26 14:55:44 | INFO     | app.agent.nodes.get_table_info:get_table_info:89 - get_table_info: final tables=['loan_product', 'loan_application', 'channel_transaction', 'credit_application', 'business_stat_daily', 'loan_contract', 'credit_limit', 'loan_disbursement', 'overdue_record', 'repayment_record']
+2026-06-26 14:55:45 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 5 tables from MySQL
+2026-06-26 14:55:45 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 100 columns for 10 tables
+2026-06-26 14:55:48 | WARNING  | app.agent.nodes.review_sql:review_sql:57 - review_sql: programmatic check failed: ["SQL使用了未提供的表: {'dim_channel'}"]
+2026-06-26 14:59:12 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 14:59:12 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 14:59:34 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 14:59:34 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 14:59:35 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 14:59:52 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 6 tables=['loan_product', 'loan_application', 'channel_transaction', 'credit_application', 'business_stat_daily', 'dim_channel']
+2026-06-26 14:59:52 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_channel (referenced by business_stat_daily.channel_id)
+2026-06-26 14:59:52 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found customer (referenced by loan_application.customer_id)
+2026-06-26 14:59:52 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found credit_limit (referenced by loan_application.credit_limit_id)
+2026-06-26 14:59:52 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_branch (referenced by business_stat_daily.branch_id)
+2026-06-26 14:59:52 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_risk_level (referenced by loan_product.risk_level_id)
+2026-06-26 14:59:52 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_product_category (referenced by loan_product.category_id)
+2026-06-26 14:59:52 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 6 new tables: ['dim_channel', 'customer', 'credit_limit', 'dim_branch', 'dim_risk_level', 'dim_product_category']
+2026-06-26 14:59:52 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 6 related tables: ['dim_channel', 'customer', 'credit_limit', 'dim_branch', 'dim_risk_level', 'dim_product_category']
+2026-06-26 14:59:52 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['loan_product', 'loan_application', 'channel_transaction', 'credit_application', 'business_stat_daily', 'dim_channel', 'customer', 'dim_branch', 'dim_risk_level', 'dim_product_category']
+2026-06-26 14:59:53 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 4 tables from MySQL
+2026-06-26 14:59:53 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 50 columns for 10 tables
+2026-06-26 15:02:21 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 9 tables=['loan_product', 'loan_disbursement', 'business_stat_daily', 'repayment_record', 'loan_contract', 'repayment_schedule', 'loan_application', 'bank_card', 'credit_limit']
+2026-06-26 15:02:21 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_channel (referenced by business_stat_daily.channel_id)
+2026-06-26 15:02:21 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_branch (referenced by business_stat_daily.branch_id)
+2026-06-26 15:02:21 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found customer (referenced by loan_disbursement.customer_id)
+2026-06-26 15:02:21 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found loan_application (referenced by loan_contract.application_id)
+2026-06-26 15:02:21 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_risk_level (referenced by loan_product.risk_level_id)
+2026-06-26 15:02:21 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found collection_case (referenced by repayment_record.collection_case_id)
+2026-06-26 15:02:21 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found repayment_promise (referenced by repayment_record.repayment_promise_id)
+2026-06-26 15:02:21 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_product_category (referenced by loan_product.category_id)
+2026-06-26 15:02:21 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 8 new tables: ['dim_channel', 'dim_branch', 'customer', 'loan_application', 'dim_risk_level', 'collection_case', 'repayment_promise', 'dim_product_category']
+2026-06-26 15:02:21 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found credit_limit (referenced by loan_application.credit_limit_id)
+2026-06-26 15:02:21 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 2: found 1 new tables: ['credit_limit']
+2026-06-26 15:02:21 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 3: found credit_application (referenced by credit_limit.credit_application_id)
+2026-06-26 15:02:21 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 3: found 1 new tables: ['credit_application']
+2026-06-26 15:02:21 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 10 related tables: ['dim_channel', 'dim_branch', 'customer', 'loan_application', 'dim_risk_level', 'collection_case', 'repayment_promise', 'dim_product_category', 'credit_limit', 'credit_application']
+2026-06-26 15:02:21 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['loan_product', 'loan_disbursement', 'business_stat_daily', 'repayment_record', 'loan_contract', 'dim_channel', 'dim_branch', 'customer', 'dim_risk_level', 'dim_product_category']
+2026-06-26 15:02:22 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 5 tables from MySQL
+2026-06-26 15:02:22 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 50 columns for 10 tables
+2026-06-26 15:04:45 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 1 tables=['overdue_record']
+2026-06-26 15:04:45 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found loan_contract (referenced by overdue_record.contract_id)
+2026-06-26 15:04:45 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found customer (referenced by overdue_record.customer_id)
+2026-06-26 15:04:45 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 2 new tables: ['loan_contract', 'customer']
+2026-06-26 15:04:45 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found loan_product (referenced by loan_contract.product_id)
+2026-06-26 15:04:45 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_branch (referenced by customer.branch_id)
+2026-06-26 15:04:45 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found loan_application (referenced by loan_contract.application_id)
+2026-06-26 15:04:45 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_risk_level (referenced by customer.risk_level_id)
+2026-06-26 15:04:45 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_channel (referenced by customer.register_channel_id)
+2026-06-26 15:04:45 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 2: found 5 new tables: ['loan_product', 'dim_branch', 'loan_application', 'dim_risk_level', 'dim_channel']
+2026-06-26 15:04:45 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 3: found credit_limit (referenced by loan_application.credit_limit_id)
+2026-06-26 15:04:45 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 3: found dim_product_category (referenced by loan_product.category_id)
+2026-06-26 15:04:45 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 3: found 2 new tables: ['credit_limit', 'dim_product_category']
+2026-06-26 15:04:45 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 9 related tables: ['loan_contract', 'customer', 'loan_product', 'dim_branch', 'loan_application', 'dim_risk_level', 'dim_channel', 'credit_limit', 'dim_product_category']
+2026-06-26 15:04:45 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['overdue_record', 'customer', 'dim_branch', 'dim_risk_level', 'dim_channel', 'dim_product_category', 'loan_contract', 'loan_application', 'credit_limit', 'loan_product']
+2026-06-26 15:04:46 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 9 tables from MySQL
+2026-06-26 15:04:46 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 138 columns for 10 tables
+2026-06-26 15:04:50 | WARNING  | app.agent.nodes.execute_sql:execute_sql:20 - SQL execution failed: (asyncmy.errors.OperationalError) (1054, "Unknown column 'overdue_stage' in 'where clause'")
+[SQL: SELECT COUNT(*) AS count
+FROM overdue_record
+WHERE overdue_stage IS NOT NULL;]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-26 15:04:53 | WARNING  | app.agent.nodes.execute_sql:execute_sql:20 - SQL execution failed: (asyncmy.errors.OperationalError) (1054, "Unknown column 'overdue_stage' in 'where clause'")
+[SQL: SELECT COUNT(*) AS count
+FROM overdue_record
+WHERE overdue_stage IS NOT NULL;]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-26 15:04:56 | WARNING  | app.agent.nodes.execute_sql:execute_sql:20 - SQL execution failed: (asyncmy.errors.OperationalError) (1054, "Unknown column 'overdue_stage' in 'where clause'")
+[SQL: SELECT COUNT(*) AS count
+FROM overdue_record
+WHERE overdue_stage IS NOT NULL;]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-26 15:04:59 | WARNING  | app.agent.nodes.execute_sql:execute_sql:20 - SQL execution failed: (asyncmy.errors.OperationalError) (1054, "Unknown column 'overdue_stage' in 'where clause'")
+[SQL: SELECT COUNT(*) AS count
+FROM overdue_record
+WHERE overdue_stage IS NOT NULL;]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-26 15:05:07 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 5 tables=['customer', 'dim_risk_level', 'customer_risk_assessment', 'credit_assessment', 'risk_event']
+2026-06-26 15:05:07 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_branch (referenced by customer.branch_id)
+2026-06-26 15:05:07 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found credit_application (referenced by credit_assessment.credit_application_id)
+2026-06-26 15:05:07 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_channel (referenced by customer.register_channel_id)
+2026-06-26 15:05:07 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 3 new tables: ['dim_branch', 'credit_application', 'dim_channel']
+2026-06-26 15:05:07 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 3 related tables: ['dim_branch', 'credit_application', 'dim_channel']
+2026-06-26 15:05:07 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['customer', 'dim_risk_level', 'customer_risk_assessment', 'credit_assessment', 'risk_event', 'dim_branch', 'dim_channel', 'credit_application']
+2026-06-26 15:05:07 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 3 tables from MySQL
+2026-06-26 15:05:07 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 50 columns for 8 tables
+2026-06-26 15:12:57 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 15:12:57 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 15:13:49 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 15:13:49 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 15:13:50 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 15:14:19 | INFO     | app.routers.ask:event_generator:92 - frontend query: 总贷款余额
+2026-06-26 15:14:24 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 9 tables=['repayment_schedule', 'loan_disbursement', 'repayment_record', 'wealth_income', 'loan_application', 'loan_contract', 'overdue_record', 'loan_product', 'credit_limit']
+2026-06-26 15:14:25 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found loan_contract (referenced by loan_disbursement.contract_id)
+2026-06-26 15:14:25 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found customer (referenced by loan_application.customer_id)
+2026-06-26 15:14:25 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found loan_product (referenced by loan_application.product_id)
+2026-06-26 15:14:25 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found credit_limit (referenced by loan_application.credit_limit_id)
+2026-06-26 15:14:25 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_channel (referenced by loan_application.channel_id)
+2026-06-26 15:14:25 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found collection_case (referenced by repayment_record.collection_case_id)
+2026-06-26 15:14:25 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found repayment_promise (referenced by repayment_record.repayment_promise_id)
+2026-06-26 15:14:25 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 7 new tables: ['loan_contract', 'customer', 'loan_product', 'credit_limit', 'dim_channel', 'collection_case', 'repayment_promise']
+2026-06-26 15:14:25 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found credit_application (referenced by credit_limit.credit_application_id)
+2026-06-26 15:14:25 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_branch (referenced by customer.branch_id)
+2026-06-26 15:14:25 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_risk_level (referenced by customer.risk_level_id)
+2026-06-26 15:14:25 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_product_category (referenced by loan_product.category_id)
+2026-06-26 15:14:25 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 2: found 4 new tables: ['credit_application', 'dim_branch', 'dim_risk_level', 'dim_product_category']
+2026-06-26 15:14:25 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 11 related tables: ['loan_contract', 'customer', 'loan_product', 'credit_limit', 'dim_channel', 'collection_case', 'repayment_promise', 'credit_application', 'dim_branch', 'dim_risk_level', 'dim_product_category']
+2026-06-26 15:14:25 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['repayment_schedule', 'loan_disbursement', 'repayment_record', 'wealth_income', 'loan_application', 'customer', 'dim_channel', 'dim_branch', 'dim_risk_level', 'dim_product_category']
+2026-06-26 15:14:25 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 5 tables from MySQL
+2026-06-26 15:14:25 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 50 columns for 10 tables
+2026-06-26 15:16:01 | WARNING  | app.agent.nodes.review_sql:review_sql:57 - review_sql: programmatic check failed: ['多表查询但缺少JOIN ON条件，可能导致笛卡尔积']
+2026-06-26 15:16:05 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 9 tables=['loan_disbursement', 'credit_limit', 'repayment_schedule', 'loan_application', 'repayment_record', 'overdue_record', 'loan_product', 'loan_contract', 'wealth_income']
+2026-06-26 15:16:05 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found loan_contract (referenced by loan_disbursement.contract_id)
+2026-06-26 15:16:05 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found credit_application (referenced by credit_limit.credit_application_id)
+2026-06-26 15:16:05 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found customer (referenced by loan_application.customer_id)
+2026-06-26 15:16:05 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found loan_product (referenced by loan_application.product_id)
+2026-06-26 15:16:05 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_channel (referenced by loan_application.channel_id)
+2026-06-26 15:16:05 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found collection_case (referenced by repayment_record.collection_case_id)
+2026-06-26 15:16:05 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found repayment_promise (referenced by repayment_record.repayment_promise_id)
+2026-06-26 15:16:05 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 7 new tables: ['loan_contract', 'credit_application', 'customer', 'loan_product', 'dim_channel', 'collection_case', 'repayment_promise']
+2026-06-26 15:16:05 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_branch (referenced by customer.branch_id)
+2026-06-26 15:16:05 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_risk_level (referenced by customer.risk_level_id)
+2026-06-26 15:16:05 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_product_category (referenced by loan_product.category_id)
+2026-06-26 15:16:05 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 2: found 3 new tables: ['dim_branch', 'dim_risk_level', 'dim_product_category']
+2026-06-26 15:16:05 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 10 related tables: ['loan_contract', 'credit_application', 'customer', 'loan_product', 'dim_channel', 'collection_case', 'repayment_promise', 'dim_branch', 'dim_risk_level', 'dim_product_category']
+2026-06-26 15:16:05 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['loan_disbursement', 'credit_limit', 'repayment_schedule', 'loan_application', 'repayment_record', 'customer', 'dim_channel', 'dim_branch', 'dim_risk_level', 'dim_product_category']
+2026-06-26 15:16:06 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 5 tables from MySQL
+2026-06-26 15:16:06 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 50 columns for 10 tables
+2026-06-26 15:16:56 | WARNING  | app.agent.nodes.review_sql:review_sql:57 - review_sql: programmatic check failed: ['多表查询但缺少JOIN ON条件，可能导致笛卡尔积']
+2026-06-26 15:16:58 | WARNING  | app.agent.nodes.review_sql:review_sql:57 - review_sql: programmatic check failed: ['多表查询但缺少JOIN ON条件，可能导致笛卡尔积']
+2026-06-26 15:16:59 | WARNING  | app.agent.nodes.review_sql:review_sql:57 - review_sql: programmatic check failed: ['多表查询但缺少JOIN ON条件，可能导致笛卡尔积']
+2026-06-26 15:18:00 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 15:18:00 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 15:18:14 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 15:18:14 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 15:18:15 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 15:19:28 | INFO     | app.routers.ask:event_generator:92 - frontend query: 总贷款余额
+2026-06-26 15:19:33 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 9 tables=['repayment_schedule', 'loan_disbursement', 'repayment_record', 'wealth_income', 'loan_application', 'loan_contract', 'overdue_record', 'loan_product', 'credit_limit']
+2026-06-26 15:19:33 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found loan_contract (referenced by loan_disbursement.contract_id)
+2026-06-26 15:19:33 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found customer (referenced by loan_application.customer_id)
+2026-06-26 15:19:33 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found loan_product (referenced by loan_application.product_id)
+2026-06-26 15:19:33 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found credit_limit (referenced by loan_application.credit_limit_id)
+2026-06-26 15:19:33 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_channel (referenced by loan_application.channel_id)
+2026-06-26 15:19:33 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found collection_case (referenced by repayment_record.collection_case_id)
+2026-06-26 15:19:33 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found repayment_promise (referenced by repayment_record.repayment_promise_id)
+2026-06-26 15:19:33 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 7 new tables: ['loan_contract', 'customer', 'loan_product', 'credit_limit', 'dim_channel', 'collection_case', 'repayment_promise']
+2026-06-26 15:19:33 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found credit_application (referenced by credit_limit.credit_application_id)
+2026-06-26 15:19:33 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_branch (referenced by customer.branch_id)
+2026-06-26 15:19:33 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_risk_level (referenced by customer.risk_level_id)
+2026-06-26 15:19:33 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_product_category (referenced by loan_product.category_id)
+2026-06-26 15:19:33 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 2: found 4 new tables: ['credit_application', 'dim_branch', 'dim_risk_level', 'dim_product_category']
+2026-06-26 15:19:33 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 11 related tables: ['loan_contract', 'customer', 'loan_product', 'credit_limit', 'dim_channel', 'collection_case', 'repayment_promise', 'credit_application', 'dim_branch', 'dim_risk_level', 'dim_product_category']
+2026-06-26 15:19:33 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['repayment_schedule', 'loan_disbursement', 'repayment_record', 'wealth_income', 'loan_application', 'customer', 'dim_channel', 'dim_branch', 'dim_risk_level', 'dim_product_category']
+2026-06-26 15:19:34 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 5 tables from MySQL
+2026-06-26 15:19:34 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 50 columns for 10 tables
+2026-06-26 15:20:06 | WARNING  | app.agent.nodes.review_sql:review_sql:57 - review_sql: programmatic check failed: ['多表查询但缺少JOIN ON条件，可能导致笛卡尔积']
+2026-06-26 15:20:07 | WARNING  | app.agent.nodes.review_sql:review_sql:57 - review_sql: programmatic check failed: ['多表查询但缺少JOIN ON条件，可能导致笛卡尔积']
+2026-06-26 15:20:08 | WARNING  | app.agent.nodes.review_sql:review_sql:57 - review_sql: programmatic check failed: ['多表查询但缺少JOIN ON条件，可能导致笛卡尔积']
+2026-06-26 15:20:12 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 9 tables=['repayment_schedule', 'loan_disbursement', 'repayment_record', 'wealth_income', 'loan_application', 'loan_contract', 'overdue_record', 'loan_product', 'credit_limit']
+2026-06-26 15:20:12 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found loan_contract (referenced by loan_disbursement.contract_id)
+2026-06-26 15:20:12 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found customer (referenced by loan_application.customer_id)
+2026-06-26 15:20:12 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found loan_product (referenced by loan_application.product_id)
+2026-06-26 15:20:12 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found credit_limit (referenced by loan_application.credit_limit_id)
+2026-06-26 15:20:12 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_channel (referenced by loan_application.channel_id)
+2026-06-26 15:20:12 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found collection_case (referenced by repayment_record.collection_case_id)
+2026-06-26 15:20:12 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found repayment_promise (referenced by repayment_record.repayment_promise_id)
+2026-06-26 15:20:12 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 7 new tables: ['loan_contract', 'customer', 'loan_product', 'credit_limit', 'dim_channel', 'collection_case', 'repayment_promise']
+2026-06-26 15:20:12 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found credit_application (referenced by credit_limit.credit_application_id)
+2026-06-26 15:20:12 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_branch (referenced by customer.branch_id)
+2026-06-26 15:20:12 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_risk_level (referenced by customer.risk_level_id)
+2026-06-26 15:20:12 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_product_category (referenced by loan_product.category_id)
+2026-06-26 15:20:12 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 2: found 4 new tables: ['credit_application', 'dim_branch', 'dim_risk_level', 'dim_product_category']
+2026-06-26 15:20:12 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 11 related tables: ['loan_contract', 'customer', 'loan_product', 'credit_limit', 'dim_channel', 'collection_case', 'repayment_promise', 'credit_application', 'dim_branch', 'dim_risk_level', 'dim_product_category']
+2026-06-26 15:20:12 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['repayment_schedule', 'loan_disbursement', 'repayment_record', 'wealth_income', 'loan_application', 'customer', 'dim_channel', 'dim_branch', 'dim_risk_level', 'dim_product_category']
+2026-06-26 15:20:13 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 5 tables from MySQL
+2026-06-26 15:20:13 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 50 columns for 10 tables
+2026-06-26 15:23:27 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 15:23:27 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 15:23:40 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 15:23:40 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 15:23:41 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 15:23:55 | INFO     | app.routers.ask:event_generator:92 - frontend query: 总贷款余额是多少
+2026-06-26 15:24:00 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 6 tables=['repayment_schedule', 'wealth_income', 'loan_disbursement', 'overdue_record', 'loan_contract', 'repayment_record']
+2026-06-26 15:24:00 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found loan_product (referenced by loan_contract.product_id)
+2026-06-26 15:24:00 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found customer (referenced by wealth_income.customer_id)
+2026-06-26 15:24:00 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found loan_application (referenced by loan_contract.application_id)
+2026-06-26 15:24:00 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 3 new tables: ['loan_product', 'customer', 'loan_application']
+2026-06-26 15:24:00 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found credit_limit (referenced by loan_application.credit_limit_id)
+2026-06-26 15:24:00 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_branch (referenced by customer.branch_id)
+2026-06-26 15:24:00 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_channel (referenced by loan_application.channel_id)
+2026-06-26 15:24:00 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_risk_level (referenced by customer.risk_level_id)
+2026-06-26 15:24:00 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_product_category (referenced by loan_product.category_id)
+2026-06-26 15:24:00 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 2: found 5 new tables: ['credit_limit', 'dim_branch', 'dim_channel', 'dim_risk_level', 'dim_product_category']
+2026-06-26 15:24:00 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 3: found credit_application (referenced by credit_limit.credit_application_id)
+2026-06-26 15:24:00 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 3: found 1 new tables: ['credit_application']
+2026-06-26 15:24:00 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 9 related tables: ['loan_product', 'customer', 'loan_application', 'credit_limit', 'dim_branch', 'dim_channel', 'dim_risk_level', 'dim_product_category', 'credit_application']
+2026-06-26 15:24:00 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['repayment_schedule', 'wealth_income', 'loan_disbursement', 'overdue_record', 'loan_contract', 'loan_application', 'credit_limit', 'credit_application', 'customer', 'dim_branch']
+2026-06-26 15:24:01 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 5 tables from MySQL
+2026-06-26 15:24:01 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 50 columns for 10 tables
+2026-06-26 15:25:03 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 9 tables=['loan_disbursement', 'repayment_schedule', 'loan_application', 'credit_limit', 'repayment_record', 'overdue_record', 'loan_contract', 'loan_product', 'wealth_income']
+2026-06-26 15:25:03 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found loan_contract (referenced by loan_disbursement.contract_id)
+2026-06-26 15:25:03 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found credit_application (referenced by credit_limit.credit_application_id)
+2026-06-26 15:25:03 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found customer (referenced by loan_application.customer_id)
+2026-06-26 15:25:03 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found loan_product (referenced by loan_application.product_id)
+2026-06-26 15:25:03 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_channel (referenced by loan_application.channel_id)
+2026-06-26 15:25:03 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found collection_case (referenced by repayment_record.collection_case_id)
+2026-06-26 15:25:03 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found repayment_promise (referenced by repayment_record.repayment_promise_id)
+2026-06-26 15:25:03 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 7 new tables: ['loan_contract', 'credit_application', 'customer', 'loan_product', 'dim_channel', 'collection_case', 'repayment_promise']
+2026-06-26 15:25:03 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_branch (referenced by customer.branch_id)
+2026-06-26 15:25:03 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_risk_level (referenced by customer.risk_level_id)
+2026-06-26 15:25:03 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_product_category (referenced by loan_product.category_id)
+2026-06-26 15:25:03 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 2: found 3 new tables: ['dim_branch', 'dim_risk_level', 'dim_product_category']
+2026-06-26 15:25:03 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 10 related tables: ['loan_contract', 'credit_application', 'customer', 'loan_product', 'dim_channel', 'collection_case', 'repayment_promise', 'dim_branch', 'dim_risk_level', 'dim_product_category']
+2026-06-26 15:25:03 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['loan_disbursement', 'repayment_schedule', 'loan_application', 'credit_limit', 'repayment_record', 'loan_contract', 'credit_application', 'collection_case', 'customer', 'dim_channel']
+2026-06-26 15:25:04 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 4 tables from MySQL
+2026-06-26 15:25:04 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 50 columns for 10 tables
+2026-06-26 15:27:55 | INFO     | app.routers.ask:event_generator:92 - frontend query: 总贷款余额是多少
+2026-06-26 15:27:57 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 8 tables=['repayment_schedule', 'loan_disbursement', 'repayment_record', 'loan_application', 'overdue_record', 'credit_limit', 'loan_product', 'wealth_income']
+2026-06-26 15:27:57 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found loan_contract (referenced by loan_disbursement.contract_id)
+2026-06-26 15:27:57 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found customer (referenced by loan_application.customer_id)
+2026-06-26 15:27:57 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found loan_product (referenced by loan_application.product_id)
+2026-06-26 15:27:57 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found credit_limit (referenced by loan_application.credit_limit_id)
+2026-06-26 15:27:57 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_channel (referenced by loan_application.channel_id)
+2026-06-26 15:27:57 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found collection_case (referenced by repayment_record.collection_case_id)
+2026-06-26 15:27:57 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found repayment_promise (referenced by repayment_record.repayment_promise_id)
+2026-06-26 15:27:57 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 7 new tables: ['loan_contract', 'customer', 'loan_product', 'credit_limit', 'dim_channel', 'collection_case', 'repayment_promise']
+2026-06-26 15:27:57 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found credit_application (referenced by credit_limit.credit_application_id)
+2026-06-26 15:27:57 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_branch (referenced by customer.branch_id)
+2026-06-26 15:27:57 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_risk_level (referenced by customer.risk_level_id)
+2026-06-26 15:27:57 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_product_category (referenced by loan_product.category_id)
+2026-06-26 15:27:57 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 2: found 4 new tables: ['credit_application', 'dim_branch', 'dim_risk_level', 'dim_product_category']
+2026-06-26 15:27:57 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 11 related tables: ['loan_contract', 'customer', 'loan_product', 'credit_limit', 'dim_channel', 'collection_case', 'repayment_promise', 'credit_application', 'dim_branch', 'dim_risk_level', 'dim_product_category']
+2026-06-26 15:27:57 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['repayment_schedule', 'loan_disbursement', 'repayment_record', 'loan_application', 'overdue_record', 'loan_contract', 'credit_limit', 'collection_case', 'credit_application', 'customer']
+2026-06-26 15:27:58 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 4 tables from MySQL
+2026-06-26 15:27:58 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 50 columns for 10 tables
+2026-06-26 15:28:18 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 6 tables=['repayment_schedule', 'wealth_income', 'loan_disbursement', 'overdue_record', 'loan_contract', 'repayment_record']
+2026-06-26 15:28:18 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found loan_product (referenced by loan_contract.product_id)
+2026-06-26 15:28:18 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found customer (referenced by wealth_income.customer_id)
+2026-06-26 15:28:18 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found loan_application (referenced by loan_contract.application_id)
+2026-06-26 15:28:18 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 3 new tables: ['loan_product', 'customer', 'loan_application']
+2026-06-26 15:28:18 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found credit_limit (referenced by loan_application.credit_limit_id)
+2026-06-26 15:28:18 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_branch (referenced by customer.branch_id)
+2026-06-26 15:28:18 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_channel (referenced by loan_application.channel_id)
+2026-06-26 15:28:18 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_risk_level (referenced by customer.risk_level_id)
+2026-06-26 15:28:18 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_product_category (referenced by loan_product.category_id)
+2026-06-26 15:28:18 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 2: found 5 new tables: ['credit_limit', 'dim_branch', 'dim_channel', 'dim_risk_level', 'dim_product_category']
+2026-06-26 15:28:18 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 3: found credit_application (referenced by credit_limit.credit_application_id)
+2026-06-26 15:28:18 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 3: found 1 new tables: ['credit_application']
+2026-06-26 15:28:18 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 9 related tables: ['loan_product', 'customer', 'loan_application', 'credit_limit', 'dim_branch', 'dim_channel', 'dim_risk_level', 'dim_product_category', 'credit_application']
+2026-06-26 15:28:18 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['repayment_schedule', 'wealth_income', 'loan_disbursement', 'overdue_record', 'loan_contract', 'loan_application', 'credit_limit', 'credit_application', 'customer', 'dim_branch']
+2026-06-26 15:28:19 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 5 tables from MySQL
+2026-06-26 15:28:19 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 50 columns for 10 tables
+2026-06-26 15:32:19 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 15:32:19 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 15:41:51 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 15:41:51 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 15:41:52 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 15:42:24 | INFO     | app.routers.ask:event_generator:92 - frontend query: 总销售金额
+2026-06-26 15:42:29 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 4 tables=['wealth_order', 'loan_contract', 'loan_write_off', 'business_metric_dict']
+2026-06-26 15:42:30 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_channel (referenced by wealth_order.channel_id)
+2026-06-26 15:42:30 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found loan_product (referenced by loan_contract.product_id)
+2026-06-26 15:42:30 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found customer (referenced by loan_write_off.customer_id)
+2026-06-26 15:42:30 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found loan_application (referenced by loan_contract.application_id)
+2026-06-26 15:42:30 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found wealth_product (referenced by wealth_order.product_id)
+2026-06-26 15:42:30 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found bank_account (referenced by wealth_order.account_id)
+2026-06-26 15:42:30 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 6 new tables: ['dim_channel', 'loan_product', 'customer', 'loan_application', 'wealth_product', 'bank_account']
+2026-06-26 15:42:30 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_branch (referenced by bank_account.branch_id)
+2026-06-26 15:42:30 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found account_product (referenced by bank_account.account_product_id)
+2026-06-26 15:42:30 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found credit_limit (referenced by loan_application.credit_limit_id)
+2026-06-26 15:42:30 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_risk_level (referenced by wealth_product.risk_level_id)
+2026-06-26 15:42:30 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_product_category (referenced by wealth_product.category_id)
+2026-06-26 15:42:30 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 2: found 5 new tables: ['dim_branch', 'account_product', 'credit_limit', 'dim_risk_level', 'dim_product_category']
+2026-06-26 15:42:30 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 3: found credit_application (referenced by credit_limit.credit_application_id)
+2026-06-26 15:42:30 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 3: found 1 new tables: ['credit_application']
+2026-06-26 15:42:30 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 12 related tables: ['dim_channel', 'loan_product', 'customer', 'loan_application', 'wealth_product', 'bank_account', 'dim_branch', 'account_product', 'credit_limit', 'dim_risk_level', 'dim_product_category', 'credit_application']
+2026-06-26 15:42:30 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['wealth_order', 'loan_contract', 'loan_write_off', 'business_metric_dict', 'loan_application', 'bank_account', 'credit_limit', 'credit_application', 'dim_channel', 'customer']
+2026-06-26 15:42:30 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 6 tables from MySQL
+2026-06-26 15:42:30 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 50 columns for 10 tables
+2026-06-26 15:42:38 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 6 tables=['loan_approval_record', 'repayment_record', 'account_transaction', 'channel_transaction', 'loan_contract', 'customer_status_history']
+2026-06-26 15:42:38 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found loan_product (referenced by loan_contract.product_id)
+2026-06-26 15:42:38 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_channel (referenced by channel_transaction.channel_id)
+2026-06-26 15:42:38 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found loan_application (referenced by loan_contract.application_id)
+2026-06-26 15:42:38 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found customer (referenced by account_transaction.customer_id)
+2026-06-26 15:42:38 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found collection_case (referenced by repayment_record.collection_case_id)
+2026-06-26 15:42:38 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found repayment_promise (referenced by repayment_record.repayment_promise_id)
+2026-06-26 15:42:38 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 6 new tables: ['loan_product', 'dim_channel', 'loan_application', 'customer', 'collection_case', 'repayment_promise']
+2026-06-26 15:42:38 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found credit_limit (referenced by loan_application.credit_limit_id)
+2026-06-26 15:42:38 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_branch (referenced by customer.branch_id)
+2026-06-26 15:42:38 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_risk_level (referenced by customer.risk_level_id)
+2026-06-26 15:42:38 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_product_category (referenced by loan_product.category_id)
+2026-06-26 15:42:38 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 2: found 4 new tables: ['credit_limit', 'dim_branch', 'dim_risk_level', 'dim_product_category']
+2026-06-26 15:42:38 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 3: found credit_application (referenced by credit_limit.credit_application_id)
+2026-06-26 15:42:38 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 3: found 1 new tables: ['credit_application']
+2026-06-26 15:42:38 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 11 related tables: ['loan_product', 'dim_channel', 'loan_application', 'customer', 'collection_case', 'repayment_promise', 'credit_limit', 'dim_branch', 'dim_risk_level', 'dim_product_category', 'credit_application']
+2026-06-26 15:42:38 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['loan_approval_record', 'repayment_record', 'account_transaction', 'channel_transaction', 'loan_contract', 'loan_application', 'collection_case', 'credit_limit', 'credit_application', 'dim_channel']
+2026-06-26 15:42:38 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 5 tables from MySQL
+2026-06-26 15:42:38 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 50 columns for 10 tables
+2026-06-26 15:43:52 | WARNING  | app.agent.nodes.execute_sql:execute_sql:20 - SQL execution failed: (asyncmy.errors.OperationalError) (1054, "Unknown column 't.amount' in 'field list'")
+[SQL: SELECT SUM(t.amount) AS `销售金额总和`
+FROM account_transaction t
+WHERE t.transaction_type IN ('transfer', 'consume', 'deposit', 'withdraw', 'refund', 'adjustment', 'wealth_purchase', 'wealth_redeem', 'wealth_income', 'loan_disbursement', 'loan_repayment')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-26 15:45:05 | INFO     | app.routers.ask:event_generator:92 - frontend query: 查询新增客户数
+2026-06-26 15:45:07 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 13 tables=['business_stat_daily', 'customer', 'customer_tag', 'business_metric_dict', 'customer_identity', 'customer_contact', 'customer_kyc', 'customer_risk_assessment', 'customer_status_history', 'account_transaction', 'customer_device', 'credit_assessment', 'customer_tag_rel']
+2026-06-26 15:45:07 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_channel (referenced by business_stat_daily.channel_id)
+2026-06-26 15:45:07 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_branch (referenced by customer.branch_id)
+2026-06-26 15:45:07 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_risk_level (referenced by customer.risk_level_id)
+2026-06-26 15:45:07 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 3 new tables: ['dim_channel', 'dim_branch', 'dim_risk_level']
+2026-06-26 15:45:07 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 3 related tables: ['dim_channel', 'dim_branch', 'dim_risk_level']
+2026-06-26 15:45:07 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['business_stat_daily', 'customer', 'customer_tag', 'business_metric_dict', 'customer_identity', 'dim_channel', 'dim_branch', 'dim_risk_level']
+2026-06-26 15:45:08 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 3 tables from MySQL
+2026-06-26 15:45:08 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 43 columns for 8 tables
+2026-06-26 15:46:40 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 13 tables=['business_stat_daily', 'customer', 'customer_tag', 'business_metric_dict', 'customer_identity', 'customer_contact', 'customer_kyc', 'customer_risk_assessment', 'customer_status_history', 'account_transaction', 'customer_device', 'credit_assessment', 'customer_tag_rel']
+2026-06-26 15:46:40 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_channel (referenced by business_stat_daily.channel_id)
+2026-06-26 15:46:40 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_branch (referenced by customer.branch_id)
+2026-06-26 15:46:40 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_risk_level (referenced by customer.risk_level_id)
+2026-06-26 15:46:40 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 3 new tables: ['dim_channel', 'dim_branch', 'dim_risk_level']
+2026-06-26 15:46:40 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 3 related tables: ['dim_channel', 'dim_branch', 'dim_risk_level']
+2026-06-26 15:46:40 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['business_stat_daily', 'customer', 'customer_tag', 'business_metric_dict', 'customer_identity', 'dim_channel', 'dim_branch', 'dim_risk_level']
+2026-06-26 15:46:41 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 3 tables from MySQL
+2026-06-26 15:46:41 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 43 columns for 8 tables
+2026-06-26 15:50:19 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 15:50:19 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 15:51:50 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 15:51:50 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 15:51:51 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 15:52:07 | INFO     | app.routers.ask:event_generator:93 - frontend query: 总贷款余额是多少
+2026-06-26 15:52:10 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 9 tables=['loan_disbursement', 'repayment_schedule', 'loan_application', 'credit_limit', 'repayment_record', 'overdue_record', 'loan_contract', 'loan_product', 'wealth_income']
+2026-06-26 15:52:11 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found loan_contract (referenced by loan_disbursement.contract_id)
+2026-06-26 15:52:11 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found credit_application (referenced by credit_limit.credit_application_id)
+2026-06-26 15:52:11 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found customer (referenced by loan_application.customer_id)
+2026-06-26 15:52:11 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found loan_product (referenced by loan_application.product_id)
+2026-06-26 15:52:11 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_channel (referenced by loan_application.channel_id)
+2026-06-26 15:52:11 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found collection_case (referenced by repayment_record.collection_case_id)
+2026-06-26 15:52:11 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found repayment_promise (referenced by repayment_record.repayment_promise_id)
+2026-06-26 15:52:11 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 7 new tables: ['loan_contract', 'credit_application', 'customer', 'loan_product', 'dim_channel', 'collection_case', 'repayment_promise']
+2026-06-26 15:52:11 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_branch (referenced by customer.branch_id)
+2026-06-26 15:52:11 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_risk_level (referenced by customer.risk_level_id)
+2026-06-26 15:52:11 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_product_category (referenced by loan_product.category_id)
+2026-06-26 15:52:11 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 2: found 3 new tables: ['dim_branch', 'dim_risk_level', 'dim_product_category']
+2026-06-26 15:52:11 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 10 related tables: ['loan_contract', 'credit_application', 'customer', 'loan_product', 'dim_channel', 'collection_case', 'repayment_promise', 'dim_branch', 'dim_risk_level', 'dim_product_category']
+2026-06-26 15:52:11 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['loan_disbursement', 'repayment_schedule', 'loan_application', 'credit_limit', 'repayment_record', 'loan_contract', 'credit_application', 'collection_case', 'customer', 'dim_channel']
+2026-06-26 15:52:11 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:18 - get_all_metadata: running 4 metadata retrievals in parallel
+2026-06-26 15:52:13 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 4 tables from MySQL
+2026-06-26 15:52:13 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 50 columns for 10 tables
+2026-06-26 15:52:13 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:28 - get_all_metadata: done - columns=50, metrics=10, values=10, keys=47
+2026-06-26 15:53:10 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 9 tables=['loan_disbursement', 'repayment_schedule', 'loan_application', 'credit_limit', 'repayment_record', 'overdue_record', 'loan_contract', 'loan_product', 'wealth_income']
+2026-06-26 15:53:10 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found loan_contract (referenced by loan_disbursement.contract_id)
+2026-06-26 15:53:10 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found credit_application (referenced by credit_limit.credit_application_id)
+2026-06-26 15:53:10 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found customer (referenced by loan_application.customer_id)
+2026-06-26 15:53:10 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found loan_product (referenced by loan_application.product_id)
+2026-06-26 15:53:10 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_channel (referenced by loan_application.channel_id)
+2026-06-26 15:53:10 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found collection_case (referenced by repayment_record.collection_case_id)
+2026-06-26 15:53:10 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found repayment_promise (referenced by repayment_record.repayment_promise_id)
+2026-06-26 15:53:10 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 7 new tables: ['loan_contract', 'credit_application', 'customer', 'loan_product', 'dim_channel', 'collection_case', 'repayment_promise']
+2026-06-26 15:53:10 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_branch (referenced by customer.branch_id)
+2026-06-26 15:53:10 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_risk_level (referenced by customer.risk_level_id)
+2026-06-26 15:53:10 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_product_category (referenced by loan_product.category_id)
+2026-06-26 15:53:10 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 2: found 3 new tables: ['dim_branch', 'dim_risk_level', 'dim_product_category']
+2026-06-26 15:53:10 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 10 related tables: ['loan_contract', 'credit_application', 'customer', 'loan_product', 'dim_channel', 'collection_case', 'repayment_promise', 'dim_branch', 'dim_risk_level', 'dim_product_category']
+2026-06-26 15:53:10 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['loan_disbursement', 'repayment_schedule', 'loan_application', 'credit_limit', 'repayment_record', 'loan_contract', 'credit_application', 'collection_case', 'customer', 'dim_channel']
+2026-06-26 15:53:10 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:18 - get_all_metadata: running 4 metadata retrievals in parallel
+2026-06-26 15:53:12 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 4 tables from MySQL
+2026-06-26 15:53:12 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 50 columns for 10 tables
+2026-06-26 15:53:12 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:28 - get_all_metadata: done - columns=50, metrics=10, values=10, keys=47
+2026-06-26 15:55:59 | INFO     | app.routers.ask:event_generator:93 - frontend query: 总贷款余额是多少
+2026-06-26 15:56:02 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 9 tables=['loan_disbursement', 'repayment_schedule', 'loan_application', 'credit_limit', 'repayment_record', 'overdue_record', 'loan_contract', 'loan_product', 'wealth_income']
+2026-06-26 15:56:02 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found loan_contract (referenced by loan_disbursement.contract_id)
+2026-06-26 15:56:02 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found credit_application (referenced by credit_limit.credit_application_id)
+2026-06-26 15:56:02 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found customer (referenced by loan_application.customer_id)
+2026-06-26 15:56:02 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found loan_product (referenced by loan_application.product_id)
+2026-06-26 15:56:02 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_channel (referenced by loan_application.channel_id)
+2026-06-26 15:56:02 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found collection_case (referenced by repayment_record.collection_case_id)
+2026-06-26 15:56:02 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found repayment_promise (referenced by repayment_record.repayment_promise_id)
+2026-06-26 15:56:02 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 7 new tables: ['loan_contract', 'credit_application', 'customer', 'loan_product', 'dim_channel', 'collection_case', 'repayment_promise']
+2026-06-26 15:56:02 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_branch (referenced by customer.branch_id)
+2026-06-26 15:56:02 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_risk_level (referenced by customer.risk_level_id)
+2026-06-26 15:56:02 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_product_category (referenced by loan_product.category_id)
+2026-06-26 15:56:02 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 2: found 3 new tables: ['dim_branch', 'dim_risk_level', 'dim_product_category']
+2026-06-26 15:56:02 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 10 related tables: ['loan_contract', 'credit_application', 'customer', 'loan_product', 'dim_channel', 'collection_case', 'repayment_promise', 'dim_branch', 'dim_risk_level', 'dim_product_category']
+2026-06-26 15:56:02 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['loan_disbursement', 'repayment_schedule', 'loan_application', 'credit_limit', 'repayment_record', 'loan_contract', 'credit_application', 'collection_case', 'customer', 'dim_channel']
+2026-06-26 15:56:02 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:18 - get_all_metadata: running 4 metadata retrievals in parallel
+2026-06-26 15:56:04 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 4 tables from MySQL
+2026-06-26 15:56:04 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 50 columns for 10 tables
+2026-06-26 15:56:04 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:28 - get_all_metadata: done - columns=50, metrics=10, values=10, keys=47
+2026-06-26 15:57:02 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 9 tables=['loan_disbursement', 'repayment_schedule', 'loan_application', 'credit_limit', 'repayment_record', 'overdue_record', 'loan_contract', 'loan_product', 'wealth_income']
+2026-06-26 15:57:02 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found loan_contract (referenced by loan_disbursement.contract_id)
+2026-06-26 15:57:02 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found credit_application (referenced by credit_limit.credit_application_id)
+2026-06-26 15:57:02 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found customer (referenced by loan_application.customer_id)
+2026-06-26 15:57:02 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found loan_product (referenced by loan_application.product_id)
+2026-06-26 15:57:02 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_channel (referenced by loan_application.channel_id)
+2026-06-26 15:57:02 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found collection_case (referenced by repayment_record.collection_case_id)
+2026-06-26 15:57:02 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found repayment_promise (referenced by repayment_record.repayment_promise_id)
+2026-06-26 15:57:02 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 7 new tables: ['loan_contract', 'credit_application', 'customer', 'loan_product', 'dim_channel', 'collection_case', 'repayment_promise']
+2026-06-26 15:57:02 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_branch (referenced by customer.branch_id)
+2026-06-26 15:57:02 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_risk_level (referenced by customer.risk_level_id)
+2026-06-26 15:57:02 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_product_category (referenced by loan_product.category_id)
+2026-06-26 15:57:02 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 2: found 3 new tables: ['dim_branch', 'dim_risk_level', 'dim_product_category']
+2026-06-26 15:57:02 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 10 related tables: ['loan_contract', 'credit_application', 'customer', 'loan_product', 'dim_channel', 'collection_case', 'repayment_promise', 'dim_branch', 'dim_risk_level', 'dim_product_category']
+2026-06-26 15:57:02 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['loan_disbursement', 'repayment_schedule', 'loan_application', 'credit_limit', 'repayment_record', 'loan_contract', 'credit_application', 'collection_case', 'customer', 'dim_channel']
+2026-06-26 15:57:02 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:18 - get_all_metadata: running 4 metadata retrievals in parallel
+2026-06-26 15:57:04 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 4 tables from MySQL
+2026-06-26 15:57:04 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 50 columns for 10 tables
+2026-06-26 15:57:04 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:28 - get_all_metadata: done - columns=50, metrics=10, values=10, keys=47
+2026-06-26 15:57:57 | WARNING  | app.agent.nodes.execute_sql:execute_sql:20 - SQL execution failed: (asyncmy.errors.OperationalError) (1054, "Unknown column 'd.total_amount' in 'field list'")
+[SQL: SELECT SUM(d.total_amount) AS total_loan_balance
+FROM loan_contract c
+INNER JOIN loan_disbursement d ON c.id = d.contract_id]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-26 15:58:38 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 15:58:38 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 15:59:11 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 15:59:11 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 15:59:13 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 15:59:44 | INFO     | app.routers.ask:event_generator:93 - frontend query: 总贷款余额是多少
+2026-06-26 15:59:47 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 10 tables=['repayment_schedule', 'loan_contract', 'repayment_record', 'loan_product', 'loan_application', 'loan_disbursement', 'overdue_record', 'credit_assessment', 'repayment_allocation', 'repayment_bill']
+2026-06-26 15:59:47 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found customer (referenced by loan_application.customer_id)
+2026-06-26 15:59:47 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found credit_limit (referenced by loan_application.credit_limit_id)
+2026-06-26 15:59:47 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_channel (referenced by loan_application.channel_id)
+2026-06-26 15:59:47 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_risk_level (referenced by loan_product.risk_level_id)
+2026-06-26 15:59:47 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found collection_case (referenced by repayment_record.collection_case_id)
+2026-06-26 15:59:47 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found repayment_promise (referenced by repayment_record.repayment_promise_id)
+2026-06-26 15:59:47 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_product_category (referenced by loan_product.category_id)
+2026-06-26 15:59:47 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 7 new tables: ['customer', 'credit_limit', 'dim_channel', 'dim_risk_level', 'collection_case', 'repayment_promise', 'dim_product_category']
+2026-06-26 15:59:47 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found credit_application (referenced by credit_limit.credit_application_id)
+2026-06-26 15:59:47 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_branch (referenced by customer.branch_id)
+2026-06-26 15:59:47 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 2: found 2 new tables: ['credit_application', 'dim_branch']
+2026-06-26 15:59:47 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 9 related tables: ['customer', 'credit_limit', 'dim_channel', 'dim_risk_level', 'collection_case', 'repayment_promise', 'dim_product_category', 'credit_application', 'dim_branch']
+2026-06-26 15:59:47 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['repayment_schedule', 'loan_contract', 'repayment_record', 'loan_product', 'loan_application', 'credit_limit', 'collection_case', 'credit_application', 'customer', 'dim_channel']
+2026-06-26 15:59:47 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:18 - get_all_metadata: running 4 metadata retrievals in parallel
+2026-06-26 15:59:50 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 5 tables from MySQL
+2026-06-26 15:59:50 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 50 columns for 10 tables
+2026-06-26 15:59:50 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:28 - get_all_metadata: done - columns=50, metrics=10, values=8, keys=44
+2026-06-26 15:59:53 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 10 tables=['repayment_schedule', 'loan_contract', 'repayment_record', 'loan_product', 'loan_application', 'loan_disbursement', 'overdue_record', 'credit_assessment', 'repayment_allocation', 'repayment_bill']
+2026-06-26 15:59:53 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found customer (referenced by loan_application.customer_id)
+2026-06-26 15:59:53 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found credit_limit (referenced by loan_application.credit_limit_id)
+2026-06-26 15:59:53 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_channel (referenced by loan_application.channel_id)
+2026-06-26 15:59:53 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_risk_level (referenced by loan_product.risk_level_id)
+2026-06-26 15:59:53 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found collection_case (referenced by repayment_record.collection_case_id)
+2026-06-26 15:59:53 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found repayment_promise (referenced by repayment_record.repayment_promise_id)
+2026-06-26 15:59:53 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_product_category (referenced by loan_product.category_id)
+2026-06-26 15:59:53 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 7 new tables: ['customer', 'credit_limit', 'dim_channel', 'dim_risk_level', 'collection_case', 'repayment_promise', 'dim_product_category']
+2026-06-26 15:59:53 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found credit_application (referenced by credit_limit.credit_application_id)
+2026-06-26 15:59:53 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_branch (referenced by customer.branch_id)
+2026-06-26 15:59:53 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 2: found 2 new tables: ['credit_application', 'dim_branch']
+2026-06-26 15:59:53 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 9 related tables: ['customer', 'credit_limit', 'dim_channel', 'dim_risk_level', 'collection_case', 'repayment_promise', 'dim_product_category', 'credit_application', 'dim_branch']
+2026-06-26 15:59:53 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['repayment_schedule', 'loan_contract', 'repayment_record', 'loan_product', 'loan_application', 'credit_limit', 'collection_case', 'credit_application', 'customer', 'dim_channel']
+2026-06-26 15:59:53 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:18 - get_all_metadata: running 4 metadata retrievals in parallel
+2026-06-26 15:59:55 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 5 tables from MySQL
+2026-06-26 15:59:55 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 50 columns for 10 tables
+2026-06-26 15:59:55 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:28 - get_all_metadata: done - columns=50, metrics=10, values=8, keys=44
+2026-06-26 16:00:04 | WARNING  | app.agent.nodes.execute_sql:execute_sql:20 - SQL execution failed: (asyncmy.errors.OperationalError) (1054, "Unknown column 'loan_contract.contract_amount' in 'where clause'")
+[SQL: SELECT SUM(loan_contract.outstanding_principal_amount) AS 总贷款余额
+FROM loan_contract
+WHERE loan_contract.contract_amount > 0;]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-26 16:00:55 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 16:00:56 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 16:01:15 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 16:01:15 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 16:01:16 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 16:01:50 | INFO     | app.routers.ask:event_generator:93 - frontend query: 总贷款余额是多少
+2026-06-26 16:01:53 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 10 tables=['repayment_schedule', 'loan_contract', 'repayment_record', 'loan_product', 'loan_application', 'loan_disbursement', 'overdue_record', 'credit_assessment', 'repayment_allocation', 'repayment_bill']
+2026-06-26 16:01:53 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found customer (referenced by loan_application.customer_id)
+2026-06-26 16:01:53 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found credit_limit (referenced by loan_application.credit_limit_id)
+2026-06-26 16:01:53 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_channel (referenced by loan_application.channel_id)
+2026-06-26 16:01:53 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_risk_level (referenced by loan_product.risk_level_id)
+2026-06-26 16:01:53 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found collection_case (referenced by repayment_record.collection_case_id)
+2026-06-26 16:01:53 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found repayment_promise (referenced by repayment_record.repayment_promise_id)
+2026-06-26 16:01:53 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_product_category (referenced by loan_product.category_id)
+2026-06-26 16:01:53 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 7 new tables: ['customer', 'credit_limit', 'dim_channel', 'dim_risk_level', 'collection_case', 'repayment_promise', 'dim_product_category']
+2026-06-26 16:01:53 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found credit_application (referenced by credit_limit.credit_application_id)
+2026-06-26 16:01:53 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_branch (referenced by customer.branch_id)
+2026-06-26 16:01:53 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 2: found 2 new tables: ['credit_application', 'dim_branch']
+2026-06-26 16:01:53 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 9 related tables: ['customer', 'credit_limit', 'dim_channel', 'dim_risk_level', 'collection_case', 'repayment_promise', 'dim_product_category', 'credit_application', 'dim_branch']
+2026-06-26 16:01:53 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['repayment_schedule', 'loan_contract', 'repayment_record', 'loan_product', 'loan_application', 'credit_limit', 'collection_case', 'credit_application', 'customer', 'dim_channel']
+2026-06-26 16:01:53 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:18 - get_all_metadata: running 4 metadata retrievals in parallel
+2026-06-26 16:01:55 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 5 tables from MySQL
+2026-06-26 16:01:55 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 50 columns for 10 tables
+2026-06-26 16:01:55 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:28 - get_all_metadata: done - columns=50, metrics=10, values=8, keys=44
+2026-06-26 16:01:57 | WARNING  | app.agent.nodes.review_sql:review_sql:93 - review_sql: programmatic check failed: ["SQL使用了未提供的列: {'active', 'loan_contract', 'contract_status'}"]
+2026-06-26 16:01:57 | WARNING  | app.agent.nodes.review_sql:review_sql:93 - review_sql: programmatic check failed: ["SQL使用了未提供的列: {'active', 'loan_contract', 'contract_status'}"]
+2026-06-26 16:01:57 | WARNING  | app.agent.nodes.execute_sql:execute_sql:20 - SQL execution failed: (asyncmy.errors.OperationalError) (1054, "Unknown column 'loan_contract.contract_amount' in 'field list'")
+[SQL: SELECT SUM(loan_contract.contract_amount) AS 总贷款余额
+FROM loan_contract
+WHERE loan_contract.contract_status = 'active';]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-26 16:01:59 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 10 tables=['repayment_schedule', 'loan_contract', 'repayment_record', 'loan_product', 'loan_application', 'loan_disbursement', 'overdue_record', 'credit_assessment', 'repayment_allocation', 'repayment_bill']
+2026-06-26 16:01:59 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found customer (referenced by loan_application.customer_id)
+2026-06-26 16:01:59 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found credit_limit (referenced by loan_application.credit_limit_id)
+2026-06-26 16:01:59 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_channel (referenced by loan_application.channel_id)
+2026-06-26 16:01:59 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_risk_level (referenced by loan_product.risk_level_id)
+2026-06-26 16:01:59 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found collection_case (referenced by repayment_record.collection_case_id)
+2026-06-26 16:01:59 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found repayment_promise (referenced by repayment_record.repayment_promise_id)
+2026-06-26 16:01:59 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_product_category (referenced by loan_product.category_id)
+2026-06-26 16:01:59 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 7 new tables: ['customer', 'credit_limit', 'dim_channel', 'dim_risk_level', 'collection_case', 'repayment_promise', 'dim_product_category']
+2026-06-26 16:01:59 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found credit_application (referenced by credit_limit.credit_application_id)
+2026-06-26 16:01:59 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_branch (referenced by customer.branch_id)
+2026-06-26 16:01:59 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 2: found 2 new tables: ['credit_application', 'dim_branch']
+2026-06-26 16:01:59 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 9 related tables: ['customer', 'credit_limit', 'dim_channel', 'dim_risk_level', 'collection_case', 'repayment_promise', 'dim_product_category', 'credit_application', 'dim_branch']
+2026-06-26 16:01:59 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['repayment_schedule', 'loan_contract', 'repayment_record', 'loan_product', 'loan_application', 'credit_limit', 'collection_case', 'credit_application', 'customer', 'dim_channel']
+2026-06-26 16:01:59 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:18 - get_all_metadata: running 4 metadata retrievals in parallel
+2026-06-26 16:02:01 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 5 tables from MySQL
+2026-06-26 16:02:01 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 50 columns for 10 tables
+2026-06-26 16:02:01 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:28 - get_all_metadata: done - columns=50, metrics=10, values=8, keys=44
+2026-06-26 16:02:02 | WARNING  | app.agent.nodes.review_sql:review_sql:93 - review_sql: programmatic check failed: ["SQL使用了未提供的列: {'active', 'loan_contract', 'contract_status'}"]
+2026-06-26 16:02:03 | WARNING  | app.agent.nodes.review_sql:review_sql:93 - review_sql: programmatic check failed: ["SQL使用了未提供的列: {'active', 'loan_contract', 'contract_status'}"]
+2026-06-26 16:02:50 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 16:02:50 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 16:03:40 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 16:03:40 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 16:03:41 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 16:04:00 | INFO     | app.routers.ask:event_generator:93 - frontend query: 总贷款余额是多少
+2026-06-26 16:04:03 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 10 tables=['repayment_schedule', 'loan_contract', 'repayment_record', 'loan_product', 'loan_application', 'loan_disbursement', 'overdue_record', 'credit_assessment', 'repayment_allocation', 'repayment_bill']
+2026-06-26 16:04:03 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found customer (referenced by loan_application.customer_id)
+2026-06-26 16:04:03 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found credit_limit (referenced by loan_application.credit_limit_id)
+2026-06-26 16:04:03 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_channel (referenced by loan_application.channel_id)
+2026-06-26 16:04:03 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_risk_level (referenced by loan_product.risk_level_id)
+2026-06-26 16:04:03 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found collection_case (referenced by repayment_record.collection_case_id)
+2026-06-26 16:04:03 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found repayment_promise (referenced by repayment_record.repayment_promise_id)
+2026-06-26 16:04:03 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_product_category (referenced by loan_product.category_id)
+2026-06-26 16:04:03 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 7 new tables: ['customer', 'credit_limit', 'dim_channel', 'dim_risk_level', 'collection_case', 'repayment_promise', 'dim_product_category']
+2026-06-26 16:04:03 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found credit_application (referenced by credit_limit.credit_application_id)
+2026-06-26 16:04:03 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_branch (referenced by customer.branch_id)
+2026-06-26 16:04:03 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 2: found 2 new tables: ['credit_application', 'dim_branch']
+2026-06-26 16:04:03 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 9 related tables: ['customer', 'credit_limit', 'dim_channel', 'dim_risk_level', 'collection_case', 'repayment_promise', 'dim_product_category', 'credit_application', 'dim_branch']
+2026-06-26 16:04:03 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['repayment_schedule', 'loan_contract', 'repayment_record', 'loan_product', 'loan_application', 'credit_limit', 'collection_case', 'credit_application', 'customer', 'dim_channel']
+2026-06-26 16:04:03 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:18 - get_all_metadata: running 4 metadata retrievals in parallel
+2026-06-26 16:04:05 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 5 tables from MySQL
+2026-06-26 16:04:05 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 50 columns for 10 tables
+2026-06-26 16:04:05 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:28 - get_all_metadata: done - columns=50, metrics=10, values=8, keys=44
+2026-06-26 16:04:07 | WARNING  | app.agent.nodes.review_sql:review_sql:100 - review_sql: programmatic check failed: ["SQL使用了未提供的列: {'contract_status', 'active'}"]
+2026-06-26 16:04:10 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 10 tables=['repayment_schedule', 'loan_contract', 'repayment_record', 'loan_product', 'loan_application', 'loan_disbursement', 'overdue_record', 'credit_assessment', 'repayment_allocation', 'repayment_bill']
+2026-06-26 16:04:10 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found customer (referenced by loan_application.customer_id)
+2026-06-26 16:04:10 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found credit_limit (referenced by loan_application.credit_limit_id)
+2026-06-26 16:04:10 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_channel (referenced by loan_application.channel_id)
+2026-06-26 16:04:10 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_risk_level (referenced by loan_product.risk_level_id)
+2026-06-26 16:04:10 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found collection_case (referenced by repayment_record.collection_case_id)
+2026-06-26 16:04:10 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found repayment_promise (referenced by repayment_record.repayment_promise_id)
+2026-06-26 16:04:10 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_product_category (referenced by loan_product.category_id)
+2026-06-26 16:04:10 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 7 new tables: ['customer', 'credit_limit', 'dim_channel', 'dim_risk_level', 'collection_case', 'repayment_promise', 'dim_product_category']
+2026-06-26 16:04:10 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found credit_application (referenced by credit_limit.credit_application_id)
+2026-06-26 16:04:10 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_branch (referenced by customer.branch_id)
+2026-06-26 16:04:10 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 2: found 2 new tables: ['credit_application', 'dim_branch']
+2026-06-26 16:04:10 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 9 related tables: ['customer', 'credit_limit', 'dim_channel', 'dim_risk_level', 'collection_case', 'repayment_promise', 'dim_product_category', 'credit_application', 'dim_branch']
+2026-06-26 16:04:10 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['repayment_schedule', 'loan_contract', 'repayment_record', 'loan_product', 'loan_application', 'credit_limit', 'collection_case', 'credit_application', 'customer', 'dim_channel']
+2026-06-26 16:04:10 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:18 - get_all_metadata: running 4 metadata retrievals in parallel
+2026-06-26 16:04:11 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 5 tables from MySQL
+2026-06-26 16:04:11 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 50 columns for 10 tables
+2026-06-26 16:04:11 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:28 - get_all_metadata: done - columns=50, metrics=10, values=8, keys=44
+2026-06-26 16:04:12 | WARNING  | app.agent.nodes.review_sql:review_sql:100 - review_sql: programmatic check failed: ["SQL使用了未提供的列: {'contract_status', 'active'}"]
+2026-06-26 16:04:13 | WARNING  | app.agent.nodes.review_sql:review_sql:100 - review_sql: programmatic check failed: ["SQL使用了未提供的列: {'contract_status', 'active'}"]
+2026-06-26 16:04:13 | WARNING  | app.agent.nodes.execute_sql:execute_sql:20 - SQL execution failed: (asyncmy.errors.OperationalError) (1054, "Unknown column 'loan_contract.contract_amount' in 'field list'")
+[SQL: SELECT SUM(loan_contract.contract_amount) AS 总贷款余额
+FROM loan_contract
+WHERE loan_contract.contract_status = 'active';]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-26 16:04:46 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 16:04:46 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 16:05:06 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 16:05:06 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 16:05:07 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 16:05:21 | INFO     | app.routers.ask:event_generator:93 - frontend query: 总贷款余额是多少
+2026-06-26 16:05:24 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 10 tables=['repayment_schedule', 'loan_contract', 'repayment_record', 'loan_product', 'loan_application', 'loan_disbursement', 'overdue_record', 'credit_assessment', 'repayment_allocation', 'repayment_bill']
+2026-06-26 16:05:24 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found customer (referenced by loan_application.customer_id)
+2026-06-26 16:05:24 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found credit_limit (referenced by loan_application.credit_limit_id)
+2026-06-26 16:05:24 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_channel (referenced by loan_application.channel_id)
+2026-06-26 16:05:24 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_risk_level (referenced by loan_product.risk_level_id)
+2026-06-26 16:05:24 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found collection_case (referenced by repayment_record.collection_case_id)
+2026-06-26 16:05:24 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found repayment_promise (referenced by repayment_record.repayment_promise_id)
+2026-06-26 16:05:24 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_product_category (referenced by loan_product.category_id)
+2026-06-26 16:05:24 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 7 new tables: ['customer', 'credit_limit', 'dim_channel', 'dim_risk_level', 'collection_case', 'repayment_promise', 'dim_product_category']
+2026-06-26 16:05:24 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found credit_application (referenced by credit_limit.credit_application_id)
+2026-06-26 16:05:24 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_branch (referenced by customer.branch_id)
+2026-06-26 16:05:24 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 2: found 2 new tables: ['credit_application', 'dim_branch']
+2026-06-26 16:05:24 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 9 related tables: ['customer', 'credit_limit', 'dim_channel', 'dim_risk_level', 'collection_case', 'repayment_promise', 'dim_product_category', 'credit_application', 'dim_branch']
+2026-06-26 16:05:24 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['repayment_schedule', 'loan_contract', 'repayment_record', 'loan_product', 'loan_application', 'credit_limit', 'collection_case', 'credit_application', 'customer', 'dim_channel']
+2026-06-26 16:05:24 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:18 - get_all_metadata: running 4 metadata retrievals in parallel
+2026-06-26 16:05:26 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 5 tables from MySQL
+2026-06-26 16:05:26 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 50 columns for 10 tables
+2026-06-26 16:05:26 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:28 - get_all_metadata: done - columns=50, metrics=10, values=8, keys=44
+2026-06-26 16:05:30 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 10 tables=['repayment_schedule', 'loan_contract', 'repayment_record', 'loan_product', 'loan_application', 'loan_disbursement', 'overdue_record', 'credit_assessment', 'repayment_allocation', 'repayment_bill']
+2026-06-26 16:05:30 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found customer (referenced by loan_application.customer_id)
+2026-06-26 16:05:30 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found credit_limit (referenced by loan_application.credit_limit_id)
+2026-06-26 16:05:30 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_channel (referenced by loan_application.channel_id)
+2026-06-26 16:05:30 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_risk_level (referenced by loan_product.risk_level_id)
+2026-06-26 16:05:30 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found collection_case (referenced by repayment_record.collection_case_id)
+2026-06-26 16:05:30 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found repayment_promise (referenced by repayment_record.repayment_promise_id)
+2026-06-26 16:05:30 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_product_category (referenced by loan_product.category_id)
+2026-06-26 16:05:30 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 7 new tables: ['customer', 'credit_limit', 'dim_channel', 'dim_risk_level', 'collection_case', 'repayment_promise', 'dim_product_category']
+2026-06-26 16:05:30 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found credit_application (referenced by credit_limit.credit_application_id)
+2026-06-26 16:05:30 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_branch (referenced by customer.branch_id)
+2026-06-26 16:05:30 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 2: found 2 new tables: ['credit_application', 'dim_branch']
+2026-06-26 16:05:30 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 9 related tables: ['customer', 'credit_limit', 'dim_channel', 'dim_risk_level', 'collection_case', 'repayment_promise', 'dim_product_category', 'credit_application', 'dim_branch']
+2026-06-26 16:05:30 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['repayment_schedule', 'loan_contract', 'repayment_record', 'loan_product', 'loan_application', 'credit_limit', 'collection_case', 'credit_application', 'customer', 'dim_channel']
+2026-06-26 16:05:30 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:18 - get_all_metadata: running 4 metadata retrievals in parallel
+2026-06-26 16:05:32 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 5 tables from MySQL
+2026-06-26 16:05:32 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 50 columns for 10 tables
+2026-06-26 16:05:32 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:28 - get_all_metadata: done - columns=50, metrics=10, values=8, keys=44
+2026-06-26 16:05:33 | WARNING  | app.agent.nodes.review_sql:review_sql:100 - review_sql: programmatic check failed: ["SQL使用了未提供的列: {'active', 'contract_status'}"]
+2026-06-26 16:06:10 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 16:06:10 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 16:06:14 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 16:06:14 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 16:06:15 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 16:06:43 | INFO     | app.routers.ask:event_generator:93 - frontend query: 最近 30 天交易金额是多少
+2026-06-26 16:06:46 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 6 tables=['account_transaction', 'aml_case_transaction', 'business_stat_daily', 'wealth_income', 'loan_write_off', 'wealth_trade_calendar']
+2026-06-26 16:06:46 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_channel (referenced by business_stat_daily.channel_id)
+2026-06-26 16:06:46 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found customer (referenced by aml_case_transaction.customer_id)
+2026-06-26 16:06:46 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found aml_case (referenced by aml_case_transaction.aml_case_id)
+2026-06-26 16:06:46 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_branch (referenced by business_stat_daily.branch_id)
+2026-06-26 16:06:46 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 4 new tables: ['dim_channel', 'customer', 'aml_case', 'dim_branch']
+2026-06-26 16:06:46 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_risk_level (referenced by customer.risk_level_id)
+2026-06-26 16:06:46 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found risk_event (referenced by aml_case.risk_event_id)
+2026-06-26 16:06:46 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 2: found 2 new tables: ['dim_risk_level', 'risk_event']
+2026-06-26 16:06:46 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 6 related tables: ['dim_channel', 'customer', 'aml_case', 'dim_branch', 'dim_risk_level', 'risk_event']
+2026-06-26 16:06:46 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['account_transaction', 'aml_case_transaction', 'business_stat_daily', 'wealth_income', 'loan_write_off', 'dim_channel', 'customer', 'dim_branch', 'dim_risk_level', 'aml_case']
+2026-06-26 16:06:46 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:18 - get_all_metadata: running 4 metadata retrievals in parallel
+2026-06-26 16:06:48 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 5 tables from MySQL
+2026-06-26 16:06:48 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 50 columns for 10 tables
+2026-06-26 16:06:48 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:28 - get_all_metadata: done - columns=50, metrics=10, values=13, keys=41
+2026-06-26 16:06:50 | WARNING  | app.agent.nodes.review_sql:review_sql:100 - review_sql: programmatic check failed: ["SQL使用了未提供的列: {'interval', 'success', 't', 'date_sub'}"]
+2026-06-26 16:06:51 | WARNING  | app.agent.nodes.review_sql:review_sql:100 - review_sql: programmatic check failed: ["SQL使用了未提供的列: {'interval', 'success', 't', 'date_sub'}"]
+2026-06-26 16:06:51 | WARNING  | app.agent.nodes.execute_sql:execute_sql:20 - SQL execution failed: (asyncmy.errors.OperationalError) (1054, "Unknown column 't.amount' in 'field list'")
+[SQL: SELECT SUM(t.amount) AS `交易金额`
+FROM account_transaction t
+WHERE t.transaction_status = 'success'
+  AND t.transaction_at >= DATE_SUB(NOW(), INTERVAL 30 DAY);]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-26 16:06:55 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 6 tables=['account_transaction', 'aml_case_transaction', 'business_stat_daily', 'wealth_income', 'loan_write_off', 'wealth_trade_calendar']
+2026-06-26 16:06:55 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_channel (referenced by business_stat_daily.channel_id)
+2026-06-26 16:06:55 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found customer (referenced by aml_case_transaction.customer_id)
+2026-06-26 16:06:55 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found aml_case (referenced by aml_case_transaction.aml_case_id)
+2026-06-26 16:06:55 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_branch (referenced by business_stat_daily.branch_id)
+2026-06-26 16:06:55 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 4 new tables: ['dim_channel', 'customer', 'aml_case', 'dim_branch']
+2026-06-26 16:06:55 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_risk_level (referenced by customer.risk_level_id)
+2026-06-26 16:06:55 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found risk_event (referenced by aml_case.risk_event_id)
+2026-06-26 16:06:55 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 2: found 2 new tables: ['dim_risk_level', 'risk_event']
+2026-06-26 16:06:55 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 6 related tables: ['dim_channel', 'customer', 'aml_case', 'dim_branch', 'dim_risk_level', 'risk_event']
+2026-06-26 16:06:55 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['account_transaction', 'aml_case_transaction', 'business_stat_daily', 'wealth_income', 'loan_write_off', 'dim_channel', 'customer', 'dim_branch', 'dim_risk_level', 'aml_case']
+2026-06-26 16:06:55 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:18 - get_all_metadata: running 4 metadata retrievals in parallel
+2026-06-26 16:06:57 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 5 tables from MySQL
+2026-06-26 16:06:57 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 50 columns for 10 tables
+2026-06-26 16:06:57 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:28 - get_all_metadata: done - columns=50, metrics=10, values=13, keys=41
+2026-06-26 16:06:58 | WARNING  | app.agent.nodes.review_sql:review_sql:100 - review_sql: programmatic check failed: ["SQL使用了未提供的列: {'interval', 'success', 't', 'date_sub'}"]
+2026-06-26 16:07:00 | WARNING  | app.agent.nodes.review_sql:review_sql:100 - review_sql: programmatic check failed: ["SQL使用了未提供的列: {'interval', 'success', 't', 'date_sub'}"]
+2026-06-26 16:07:00 | WARNING  | app.agent.nodes.execute_sql:execute_sql:20 - SQL execution failed: (asyncmy.errors.OperationalError) (1054, "Unknown column 't.amount' in 'field list'")
+[SQL: SELECT SUM(t.amount) AS `交易金额`
+FROM account_transaction t
+WHERE t.transaction_status = 'success'
+  AND t.transaction_at >= DATE_SUB(NOW(), INTERVAL 30 DAY);]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-26 16:08:31 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 16:08:31 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 16:08:32 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 16:08:32 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-26 16:08:32 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
+2026-06-26 16:09:34 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 16:09:34 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 16:09:35 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 16:09:55 | INFO     | app.routers.ask:event_generator:93 - frontend query: 最近30天交易金额是多少
+2026-06-26 16:09:58 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 6 tables=['account_transaction', 'aml_case_transaction', 'business_stat_daily', 'wealth_income', 'loan_write_off', 'wealth_trade_calendar']
+2026-06-26 16:09:58 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_channel (referenced by business_stat_daily.channel_id)
+2026-06-26 16:09:58 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found customer (referenced by aml_case_transaction.customer_id)
+2026-06-26 16:09:58 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found aml_case (referenced by aml_case_transaction.aml_case_id)
+2026-06-26 16:09:58 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_branch (referenced by business_stat_daily.branch_id)
+2026-06-26 16:09:58 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 4 new tables: ['dim_channel', 'customer', 'aml_case', 'dim_branch']
+2026-06-26 16:09:58 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_risk_level (referenced by customer.risk_level_id)
+2026-06-26 16:09:58 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found risk_event (referenced by aml_case.risk_event_id)
+2026-06-26 16:09:58 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 2: found 2 new tables: ['dim_risk_level', 'risk_event']
+2026-06-26 16:09:58 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 6 related tables: ['dim_channel', 'customer', 'aml_case', 'dim_branch', 'dim_risk_level', 'risk_event']
+2026-06-26 16:09:58 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['account_transaction', 'aml_case_transaction', 'business_stat_daily', 'wealth_income', 'loan_write_off', 'dim_channel', 'customer', 'dim_branch', 'dim_risk_level', 'aml_case']
+2026-06-26 16:09:58 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:18 - get_all_metadata: running 4 metadata retrievals in parallel
+2026-06-26 16:10:00 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 5 tables from MySQL
+2026-06-26 16:10:00 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 79 columns for 10 tables
+2026-06-26 16:10:00 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:28 - get_all_metadata: done - columns=79, metrics=10, values=13, keys=41
+2026-06-26 16:10:03 | WARNING  | app.agent.nodes.review_sql:review_sql:100 - review_sql: programmatic check failed: ["SQL使用了未提供的列: {'t', 'success', 'date_sub', 'interval'}"]
+2026-06-26 16:10:05 | WARNING  | app.agent.nodes.review_sql:review_sql:100 - review_sql: programmatic check failed: ["SQL使用了未提供的列: {'t', 'success', 'date_sub', 'interval'}"]
+2026-06-26 16:10:05 | WARNING  | app.agent.nodes.execute_sql:execute_sql:20 - SQL execution failed: (asyncmy.errors.OperationalError) (1054, "Unknown column 't.amount' in 'field list'")
+[SQL: SELECT SUM(t.amount) AS `交易金额`
+FROM account_transaction t
+WHERE t.transaction_status = 'success'
+  AND t.transaction_at >= DATE_SUB(NOW(), INTERVAL 30 DAY);]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-06-26 16:10:08 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 6 tables=['account_transaction', 'aml_case_transaction', 'business_stat_daily', 'wealth_income', 'loan_write_off', 'wealth_trade_calendar']
+2026-06-26 16:10:09 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_channel (referenced by business_stat_daily.channel_id)
+2026-06-26 16:10:09 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found customer (referenced by aml_case_transaction.customer_id)
+2026-06-26 16:10:09 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found aml_case (referenced by aml_case_transaction.aml_case_id)
+2026-06-26 16:10:09 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_branch (referenced by business_stat_daily.branch_id)
+2026-06-26 16:10:09 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 4 new tables: ['dim_channel', 'customer', 'aml_case', 'dim_branch']
+2026-06-26 16:10:09 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_risk_level (referenced by customer.risk_level_id)
+2026-06-26 16:10:09 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found risk_event (referenced by aml_case.risk_event_id)
+2026-06-26 16:10:09 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 2: found 2 new tables: ['dim_risk_level', 'risk_event']
+2026-06-26 16:10:09 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 6 related tables: ['dim_channel', 'customer', 'aml_case', 'dim_branch', 'dim_risk_level', 'risk_event']
+2026-06-26 16:10:09 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['account_transaction', 'aml_case_transaction', 'business_stat_daily', 'wealth_income', 'loan_write_off', 'dim_channel', 'customer', 'dim_branch', 'dim_risk_level', 'aml_case']
+2026-06-26 16:10:09 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:18 - get_all_metadata: running 4 metadata retrievals in parallel
+2026-06-26 16:10:10 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 5 tables from MySQL
+2026-06-26 16:10:10 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 79 columns for 10 tables
+2026-06-26 16:10:10 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:28 - get_all_metadata: done - columns=79, metrics=10, values=13, keys=41
+2026-06-26 16:10:12 | WARNING  | app.agent.nodes.review_sql:review_sql:100 - review_sql: programmatic check failed: ["SQL使用了未提供的列: {'t', 'success', 'date_sub', 'interval'}"]
+2026-06-26 16:10:13 | WARNING  | app.agent.nodes.review_sql:review_sql:100 - review_sql: programmatic check failed: ["SQL使用了未提供的列: {'t', 'success', 'date_sub', 'interval'}"]
+2026-06-26 16:11:03 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-26 16:11:03 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-26 16:11:04 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-26 16:11:19 | INFO     | app.routers.ask:event_generator:93 - frontend query: 哪个贷款产品申请最多
+2026-06-26 16:11:23 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 4 tables=['loan_product', 'wealth_product', 'loan_application', 'loan_contract']
+2026-06-26 16:11:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found customer (referenced by loan_application.customer_id)
+2026-06-26 16:11:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found credit_limit (referenced by loan_application.credit_limit_id)
+2026-06-26 16:11:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_risk_level (referenced by wealth_product.risk_level_id)
+2026-06-26 16:11:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_channel (referenced by loan_application.channel_id)
+2026-06-26 16:11:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_product_category (referenced by wealth_product.category_id)
+2026-06-26 16:11:23 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 5 new tables: ['customer', 'credit_limit', 'dim_risk_level', 'dim_channel', 'dim_product_category']
+2026-06-26 16:11:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found credit_application (referenced by credit_limit.credit_application_id)
+2026-06-26 16:11:23 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_branch (referenced by customer.branch_id)
+2026-06-26 16:11:23 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 2: found 2 new tables: ['credit_application', 'dim_branch']
+2026-06-26 16:11:23 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 7 related tables: ['customer', 'credit_limit', 'dim_risk_level', 'dim_channel', 'dim_product_category', 'credit_application', 'dim_branch']
+2026-06-26 16:11:23 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['loan_product', 'wealth_product', 'loan_application', 'loan_contract', 'credit_limit', 'credit_application', 'customer', 'dim_risk_level', 'dim_channel', 'dim_product_category']
+2026-06-26 16:11:23 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:18 - get_all_metadata: running 4 metadata retrievals in parallel
+2026-06-26 16:11:25 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 6 tables from MySQL
+2026-06-26 16:11:25 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 88 columns for 10 tables
+2026-06-26 16:11:25 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:28 - get_all_metadata: done - columns=88, metrics=10, values=11, keys=32
+2026-06-26 16:11:28 | WARNING  | app.agent.nodes.review_sql:review_sql:109 - review_sql: programmatic check failed: ["SQL使用了未提供的列: {'lp', 'la', 'application_count'}"]
+2026-06-26 16:11:30 | WARNING  | app.agent.nodes.review_sql:review_sql:109 - review_sql: programmatic check failed: ["SQL使用了未提供的列: {'application_count'}"]
+2026-06-26 16:11:32 | INFO     | app.agent.nodes.get_table_info:get_table_info:67 - get_table_info: vector search found 4 tables=['loan_product', 'wealth_product', 'loan_application', 'loan_contract']
+2026-06-26 16:11:32 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found customer (referenced by loan_application.customer_id)
+2026-06-26 16:11:32 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found credit_limit (referenced by loan_application.credit_limit_id)
+2026-06-26 16:11:32 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_risk_level (referenced by wealth_product.risk_level_id)
+2026-06-26 16:11:32 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_channel (referenced by loan_application.channel_id)
+2026-06-26 16:11:32 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 1: found dim_product_category (referenced by wealth_product.category_id)
+2026-06-26 16:11:32 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 1: found 5 new tables: ['customer', 'credit_limit', 'dim_risk_level', 'dim_channel', 'dim_product_category']
+2026-06-26 16:11:32 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found credit_application (referenced by credit_limit.credit_application_id)
+2026-06-26 16:11:32 | DEBUG    | app.agent.nodes.get_table_info:_find_related_tables:132 -   hop 2: found dim_branch (referenced by customer.branch_id)
+2026-06-26 16:11:32 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:140 -   hop 2: found 2 new tables: ['credit_application', 'dim_branch']
+2026-06-26 16:11:32 | INFO     | app.agent.nodes.get_table_info:_find_related_tables:142 - _find_related_tables: found 7 related tables: ['customer', 'credit_limit', 'dim_risk_level', 'dim_channel', 'dim_product_category', 'credit_application', 'dim_branch']
+2026-06-26 16:11:32 | INFO     | app.agent.nodes.get_table_info:get_table_info:87 - get_table_info: final tables=['loan_product', 'wealth_product', 'loan_application', 'loan_contract', 'credit_limit', 'credit_application', 'customer', 'dim_risk_level', 'dim_channel', 'dim_product_category']
+2026-06-26 16:11:32 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:18 - get_all_metadata: running 4 metadata retrievals in parallel
+2026-06-26 16:11:34 | INFO     | app.agent.nodes.get_column_info:get_column_info:54 - get_column_info: supplemented key/dim/measure columns for 6 tables from MySQL
+2026-06-26 16:11:34 | INFO     | app.agent.nodes.get_column_info:get_column_info:67 - get_column_info: returning 88 columns for 10 tables
+2026-06-26 16:11:34 | INFO     | app.agent.nodes.get_all_metadata:get_all_metadata:28 - get_all_metadata: done - columns=88, metrics=10, values=11, keys=32
+2026-06-26 16:11:35 | WARNING  | app.agent.nodes.review_sql:review_sql:109 - review_sql: programmatic check failed: ["SQL使用了未提供的列: {'lp', 'la'}"]
+2026-06-27 15:15:50 | INFO     | app.core.log:setup_logging:32 - Logging configured
+2026-06-27 15:15:50 | INFO     | app.core.lifespan:lifespan:20 - Starting up finance-data application...
+2026-06-27 15:15:51 | INFO     | app.core.lifespan:lifespan:28 - All clients initialized
+2026-06-27 15:16:15 | INFO     | app.routers.ask:event_generator:88 - frontend query: 到目前为止的欠债多少钱?
+2026-06-27 15:17:03 | INFO     | app.core.lifespan:lifespan:32 - Shutting down finance-data application...
+2026-06-27 15:17:03 | INFO     | app.core.lifespan:lifespan:39 - All clients closed
